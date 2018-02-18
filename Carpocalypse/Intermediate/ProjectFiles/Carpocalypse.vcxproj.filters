@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Carpocalypse.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{EC9AF8B5-C00B-44AB-8795-622A26E8B44D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Carpocalypse.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CarpocalypseEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{1F271AE9-FD64-47DB-965A-37CB2CCC66CF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Carpocalypse">
+			<UniqueIdentifier>{C6F0C3BE-9345-4525-82C6-CD082BBAE3EC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Carpocalypse\Carpocalypse.Build.cs">
+			<Filter>Source\Carpocalypse</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Carpocalypse\Carpocalypse.cpp">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Carpocalypse\Carpocalypse.h">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Carpocalypse\CarpocalypseGameMode.cpp">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Carpocalypse\CarpocalypseGameMode.h">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Carpocalypse\CarpocalypsePawn.cpp">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Carpocalypse\CarpocalypsePawn.h">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Carpocalypse\CarpocalypseProjectile.cpp">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Carpocalypse\CarpocalypseProjectile.h">
+			<Filter>Source\Carpocalypse</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
