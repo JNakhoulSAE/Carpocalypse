@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeCarpocalypse_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Carpocalypse",
 				PKG_CompiledIn | 0x00000000,
-				0x4F10B16B,
-				0xF655A4B3,
+				0xDF13C452,
+				0x568AA8FB,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

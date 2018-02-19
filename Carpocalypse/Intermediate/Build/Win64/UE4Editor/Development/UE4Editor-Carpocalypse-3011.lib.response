@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Carpocalypse-3011.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\Carpocalypse.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypseGameMode.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypsePawn.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypseProjectile.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\testcharacter1.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\Carpocalypse.init.gen.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypseGameMode.gen.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypsePawn.gen.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\CarpocalypseProjectile.gen.cpp.obj"
+"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\testcharacter1.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Carpocalypse\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-3011.lib"
