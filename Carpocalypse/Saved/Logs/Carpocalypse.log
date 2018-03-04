@@ -1,4 +1,4 @@
-﻿Log file open, 02/19/18 14:07:33
+﻿Log file open, 03/04/18 21:48:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,13 +7,14 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Carpocalypse
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-651170051) SRandInit(-651170051).
+LogInit: Display: RandInit(1619519675) SRandInit(1619519675).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.162985
+LogStats: Stats thread started at 0.185018
 LogD3D11RHI: Aftermath initialized
+LogConfig: Warning: Failed to saved backup for config[Engine]
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -72,10 +73,12 @@ LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus
 LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogConfig: Warning: Failed to saved backup for config[ProceduralMeshComponent]
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
+LogConfig: Warning: Failed to saved backup for config[SteamVR]
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse.dll (API version 3709383).
+LogModuleManager: Warning: Module file D:/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse-5747.dll is missing. This is likely a stale module that must be recompiled.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -149,518 +152,25 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Using libcurl 7.47.1
-LogInit:  - built for x86_64-pc-win32
-LogInit:  - supports SSL with OpenSSL/1.0.2g
-LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
-LogInit:  - other features:
-LogInit:      CURL_VERSION_SSL
-LogInit:      CURL_VERSION_LIBZ
-LogInit:      CURL_VERSION_IPV6
-LogInit:      CURL_VERSION_ASYNCHDNS
-LogInit:      CURL_VERSION_LARGEFILE
-LogInit:      CURL_VERSION_IDN
-LogInit:  CurlRequestOptions (configurable via config and command line):
-LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.19.0
-LogInit: Build: ++UE4+Release-4.18-CL-3832480
-LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
-LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
-LogInit: Net CL: 3709383
-LogDevObjectVersion: Number of dev versions registered: 16
-LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
-LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
-LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
-LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
-LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
-LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
-LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
-LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
-LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
-LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
-LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
-LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
-LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
-LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
-LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
-LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
-LogInit: Compiled with Visual C++: 19.00.24215.01
-LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
-LogInit: Installed Engine Build: 1
-LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogInit: Object subsystem initialized
-[2018.02.19-03.07.36:250][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.19-03.07.36:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.19-03.07.36:268][  0]LogInit: Computer: SYD-R102-PC12
-[2018.02.19-03.07.36:268][  0]LogInit: User: jman
-[2018.02.19-03.07.36:268][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.19-03.07.36:268][  0]LogInit: High frequency timer resolution =3.328122 MHz
-[2018.02.19-03.07.36:269][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.02.19-03.07.36:269][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.19-03.07.36:269][  0]LogMemory: Process Physical Memory: 280.38 MB used, 280.38 MB peak
-[2018.02.19-03.07.36:269][  0]LogMemory: Process Virtual Memory: 274.24 MB used, 274.24 MB peak
-[2018.02.19-03.07.36:269][  0]LogMemory: Physical Memory: 6729.53 MB used,  25953.63 MB free, 32683.16 MB total
-[2018.02.19-03.07.36:269][  0]LogMemory: Virtual Memory: 733.11 MB used,  25953.63 MB free, 134217728.00 MB total
-[2018.02.19-03.07.36:463][  0]LogInit: Using OS detected language (en-US).
-[2018.02.19-03.07.36:463][  0]LogInit: Using OS detected locale (en-AU).
-[2018.02.19-03.07.36:468][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.19-03.07.36:804][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.19-03.07.37:148][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.19-03.07.37:185][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2018.02.19-03.07.37:185][  0]LogD3D11RHI:       4060/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.19-03.07.37:186][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.19-03.07.37:186][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.19-03.07.37:186][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.19-03.07.37:191][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.19-03.07.37:191][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.19-03.07.37:191][  0]LogWindows: EnumDisplayDevices:
-[2018.02.19-03.07.37:191][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2018.02.19-03.07.37:191][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.02.19-03.07.37:191][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.02.19-03.07.37:191][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.02.19-03.07.37:191][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.19-03.07.37:191][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2018.02.19-03.07.37:191][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.19-03.07.37:191][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.19-03.07.37:191][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
-[2018.02.19-03.07.37:212][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.19-03.07.37:224][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.19-03.07.37:267][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Intermediate/Shaders/WorkingDirectory/8584/).
-[2018.02.19-03.07.37:267][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jman/AppData/Local/Temp/UnrealShaderWorkingDir/5231FC4E45A9E7E482F120B917351077/'.
-[2018.02.19-03.07.37:267][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.19-03.07.38:128][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.19-03.07.38:182][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.19-03.07.38:238][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.19-03.07.38:316][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.19-03.07.38:376][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.19-03.07.38:431][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.19-03.07.38:488][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.19-03.07.38:544][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.19-03.07.38:594][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.19-03.07.38:650][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.19-03.07.38:707][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.19-03.07.38:758][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.19-03.07.38:814][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.19-03.07.38:871][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.19-03.07.38:975][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.19-03.07.38:975][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.19-03.07.39:027][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.19-03.07.39:068][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.19-03.07.39:166][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.19-03.07.39:194][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.19-03.07.39:247][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.19-03.07.39:299][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.19-03.07.39:351][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.19-03.07.39:405][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.19-03.07.39:405][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.19-03.07.39:896][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.19-03.07.39:946][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.19-03.07.39:946][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.19-03.07.39:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.19-03.07.39:947][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.19-03.07.39:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.19-03.07.39:947][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.19-03.07.39:960][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.19-03.07.39:973][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.19-03.07.39:981][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.19-03.07.39:981][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.19-03.07.39:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.19-03.07.39:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.19-03.07.40:319][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.19-03.07.40:657][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.19-03.07.40:707][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.19-03.07.40:707][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.19-03.07.40:707][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.19-03.07.40:707][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.19-03.07.40:707][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.19-03.07.40:736][  0]LogNetVersion: Carpocalypse , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 507098726)
-[2018.02.19-03.07.40:897][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2018.02.19-03.07.41:381][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.074244 seconds
-[2018.02.19-03.07.41:385][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.19-03.07.41:385][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.02.19-03.07.41:385][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.19-03.07.41:443][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.19-03.07.44:310][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.19-03.07.44:389][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.19-03.07.45:238][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.19-03.07.45:693][  0]SourceControl: Source control is disabled
-[2018.02.19-03.07.45:693][  0]SourceControl: Source control is disabled
-[2018.02.19-03.07.45:752][  0]SourceControl: Source control is disabled
-[2018.02.19-03.07.45:810][  0]SourceControl: Source control is disabled
-[2018.02.19-03.07.46:737][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.19-03.07.47:042][  0]LogOcInput: OculusInput pre-init called
-[2018.02.19-03.07.47:324][  0]LogEngine: Initializing Engine...
-[2018.02.19-03.07.47:326][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.19-03.07.47:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.19-03.07.47:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.19-03.07.47:652][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.19-03.07.47:666][  0]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.19-03.07.47:687][  0]LogInit: FAudioDevice initialized.
-[2018.02.19-03.07.47:757][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.19-03.07.47:764][  0]LogInit: Texture streaming: Enabled
-[2018.02.19-03.07.47:877][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.19-03.07.48:039][  0]LogInit: Transaction tracking system initialized
-[2018.02.19-03.07.48:394][  0]BlueprintLog: New page: Editor Load
-[2018.02.19-03.07.49:367][  0]LocalizationService: Localization service is disabled
-[2018.02.19-03.07.50:148][  0]LogConsoleResponse: Display: 
-[2018.02.19-03.07.50:322][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.19-03.07.50:322][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.19-03.07.50:323][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.19-03.07.50:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/' took 0.01s
-[2018.02.19-03.07.51:616][  0]SourceControl: Source control is disabled
-[2018.02.19-03.07.51:616][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.19-03.07.51:617][  0]LightingResults: New page: Lighting Build
-[2018.02.19-03.07.51:661][  0]MapCheck: New page: Map Check
-[2018.02.19-03.07.51:661][  0]LightingResults: New page: Lighting Build
-[2018.02.19-03.07.51:843][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2018.02.19-03.07.51:849][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.19-03.07.51:858][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.19-03.07.51:920][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.034ms to complete.
-[2018.02.19-03.07.51:920][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.303
-[2018.02.19-03.07.51:984][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.19-03.07.51:984][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.19-03.07.52:056][  0]LogCollectionManager: Loaded 0 collections in 0.001245 seconds
-[2018.02.19-03.07.52:140][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Collections/' took 0.01s
-[2018.02.19-03.07.52:140][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Developers/jman/Collections/' took 0.01s
-[2018.02.19-03.07.52:140][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Collections/' took 0.01s
-[2018.02.19-03.07.52:140][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.02.19-03.07.52:148][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2367 classes and 522 folders.
-[2018.02.19-03.07.52:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.02.19-03.07.52:255][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.02.19-03.07.52:301][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.19-03.07.52:365][  0]LogSlate: Took 0.000994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.19-03.07.52:368][  0]LogSlate: Took 0.000510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.19-03.07.52:372][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.19-03.07.52:467][  0]LogRenderer: Reallocating scene render targets to support 1616x812 Format 10 NumSamples 1 (Frame:1).
-[2018.02.19-03.07.52:618][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.02.19-03.07.52:618][  0]LogLoad: (Engine Initialization) Total time: 19.55 seconds
-[2018.02.19-03.07.52:618][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.19-03.07.52:618][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.19-03.07.52:618][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.19-03.07.52:642][  0]LogAssetRegistry: Asset discovery search completed in 11.7669 seconds
-[2018.02.19-03.07.52:644][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.19-03.07.52:644][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2018.02.19-03.07.52:646][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.19-03.08.03:364][274]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.19-03.08.03:376][274]LogLinker: Warning: Can't find file '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData'
-[2018.02.19-03.08.03:376][274]LogLinker: Warning: Can't find file for asset '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData' while loading ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap.
-[2018.02.19-03.08.03:376][274]LoadErrors: Error: /Game/TwinStick/TestingScenes/Jacky/Jacky : Can't find file for asset. /Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData
-[2018.02.19-03.08.03:378][274]LogLinker: Warning: Can't find file '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData'
-[2018.02.19-03.08.03:378][274]LogLinker: Warning: Can't find file for asset '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData' while loading ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap.
-[2018.02.19-03.08.03:379][274]LogLinker: Warning: Can't find file '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData'
-[2018.02.19-03.08.03:379][274]LogLinker: Warning: Can't find file for asset '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData' while loading NULL.
-[2018.02.19-03.08.03:379][274]LogLinker: Warning: Can't find file '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData'
-[2018.02.19-03.08.03:379][274]LogLinker: Warning: Can't find file for asset '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData' while loading NULL.
-[2018.02.19-03.08.03:383][274]LogLinker: Warning: Can't find file '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData'
-[2018.02.19-03.08.03:383][274]LoadErrors: Failed to load /Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData.Jacky_BuiltData Referenced by PersistentLevel
-[2018.02.19-03.08.03:383][274]LogLinker: Warning: Can't find file for asset '/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData' while loading NULL.
-[2018.02.19-03.08.03:392][274]LogAIModule: Creating AISystem for world Jacky
-[2018.02.19-03.08.03:419][274]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.19-03.08.03:419][274]LightingResults: New page: Lighting Build
-[2018.02.19-03.08.03:420][274]LoadErrors: New page: Loading map: Jacky.umap
-[2018.02.19-03.08.03:420][274]MapCheck: New page: Map Check
-[2018.02.19-03.08.03:420][274]LightingResults: New page: Lighting Build
-[2018.02.19-03.08.03:431][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.19-03.08.03:454][274]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.19-03.08.03:504][274]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.163ms to complete.
-[2018.02.19-03.08.03:504][274]LogFileHelpers: Loading map 'Jacky' took 0.086
-[2018.02.19-03.08.07:558][754]MapCheck: New page: Map Check
-[2018.02.19-03.08.07:574][754]Cmd: MAP REBUILD ALLVISIBLE
-[2018.02.19-03.08.07:574][754]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.02.19-03.08.07:651][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.02.19-03.08.07:658][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2018.02.19-03.08.07:663][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.02.19-03.08.07:668][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2018.02.19-03.08.07:673][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlueMaterial, compiling. 
-[2018.02.19-03.08.07:679][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.02.19-03.08.08:126][754]TextureStreamingBuild: Display: Compiling optional shaders took 0.481 seconds.
-[2018.02.19-03.08.08:129][754]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
-[2018.02.19-03.08.08:132][754]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
-[2018.02.19-03.08.08:140][754]LightingResults: New page: Lighting Build - 20 Feb 2018 1:08:08 am
-[2018.02.19-03.08.08:170][754]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.02.19-03.08.08:220][754]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.02.19-03.08.08:228][754]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.02.19-03.08.08:747][754]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.02.19-03.08.08:747][754]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8584
-[2018.02.19-03.08.11:340][754]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.02.19-03.08.11:341][754]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.02.19-03.08.11:341][754]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.02.19-03.08.11:341][754]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.02.19-03.08.11:341][754]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.02.19-03.08.11:442][754]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.02.19-03.08.11:442][754]MapCheck: New page: Jacky - 20 Feb 2018 1:08:11 am
-[2018.02.19-03.08.11:443][754]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2018.02.19-03.08.11:495][754]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.431ms to complete.
-[2018.02.19-03.08.11:517][754]LogEditorBuildUtils: Build time 0:03
-[2018.02.19-03.08.14:234][979]Job is a success!
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:      Bricks at Level
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
-[2018.02.19-03.08.14:277][981]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.02.19-03.08.14:489][981]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.02.19-03.08.14:553][981]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
-[2018.02.19-03.08.14:573][981]Lightmass on SYD-R102-PC12: 2.52 sec total, 109 ms importing, 7 ms setup, 649 ms photons, 1.73 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 11.9 sec total, 1.40 sec processing.
-[2018.02.19-03.08.14:589][981]LogStaticLightingSystem: Illumination: 6.43 sec (131 ms encoding lightmaps, 129 ms encoding shadowmaps)
-[2018.02.19-03.08.14:589][981]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.02.19-03.08.14:589][981]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.02.19-03.08.15:346][981]DumpUnbuiltLightIteractions
-[2018.02.19-03.08.15:346][981]Lights with unbuilt interactions: 0
-[2018.02.19-03.08.15:346][981]
-[2018.02.19-03.08.15:346][981]Primitives with unbuilt interactions: 0
-[2018.02.19-03.08.15:422][982]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.02.19-03.08.15:422][982]MapCheck: New page: Jacky - 20 Feb 2018 1:08:15 am
-[2018.02.19-03.08.15:473][982]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.111ms to complete.
-[2018.02.19-03.08.35:460][357]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.19-03.09.06:727][102]Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Carpocalypse.uproject" -game -rocket -progress
-[2018.02.19-03.09.06:930][102]Discovering modules, targets and source code for project...
-[2018.02.19-03.09.09:441][102]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.19-03.09.10:163][102]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.02.19-03.09.10:170][102]Candidate modules for hot reload:
-[2018.02.19-03.09.10:170][102]  Carpocalypse
-[2018.02.19-03.09.10:171][102]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Carpocalypse -ModuleWithSuffix Carpocalypse 3011 Win64 Development -editorrecompile -canskiplink "C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Carpocalypse.uproject" ]
-[2018.02.19-03.09.27:209][102]CompilerResultsLog: New page: Compilation - 20 Feb 2018 1:09:27 am
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Creating makefile for hot reloading Carpocalypse (no existing makefile)
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Performing full C++ include scan (no include cache file)
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Parsing headers for CarpocalypseEditor
-[2018.02.19-03.09.27:210][102]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Carpocalypse.uproject" "C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\CarpocalypseEditor\Development\CarpocalypseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Reflection code generated for CarpocalypseEditor in 8.8324818 seconds
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Performing 12 actions (4 in parallel)
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Carpocalypse.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypseProjectile.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypseGameMode.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypsePawn.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: testcharacter1.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Carpocalypse.init.gen.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypseGameMode.gen.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypsePawn.gen.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: CarpocalypseProjectile.gen.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: testcharacter1.gen.cpp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: [11/12] Link UE4Editor-Carpocalypse-3011.dll
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: [12/12] Link UE4Editor-Carpocalypse-3011.lib
-[2018.02.19-03.09.27:210][102]CompilerResultsLog:    Creating library C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-3011.lib and object C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-3011.exp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog:    Creating library C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-3011.suppressed.lib and object C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-3011.suppressed.exp
-[2018.02.19-03.09.27:210][102]CompilerResultsLog: Total build time: 16.84 seconds (Local executor: 2.12 seconds)
-[2018.02.19-03.09.27:210][102]LogMainFrame: MainFrame: Module compiling took 17.047 seconds
-[2018.02.19-03.09.27:275][102]LogClass: Could not find existing class testcharacter1 in package /Script/Carpocalypse for HotReload, assuming new class
-[2018.02.19-03.09.27:277][102]LogContentBrowser: Native class hierarchy updated for 'Carpocalypse' in 0.0006 seconds. Added 5 classes and 3 folders.
-[2018.02.19-03.09.27:279][102]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2018.02.19-03.09.27:351][102]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2370 classes and 526 folders.
-[2018.02.19-03.09.27:351][102]Display: HotReload took 17.2s.
-[2018.02.19-03.09.27:352][102]Warning: HotReload operation took 17.2s.
-[2018.02.19-03.09.27:389][102]LogHotReload: New module detected: UE4Editor-Carpocalypse-3011.dll
-[2018.02.19-03.09.27:410][103]LogHotReload: Starting Hot-Reload from IDE
-[2018.02.19-03.09.27:504][103]LogContentBrowser: Native class hierarchy updated for 'Carpocalypse' in 0.0007 seconds. Added 5 classes and 3 folders.
-[2018.02.19-03.09.27:505][103]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.19-03.09.27:526][103]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2370 classes and 526 folders.
-[2018.02.19-03.09.27:529][103]Display: HotReload took  0.1s.
-[2018.02.19-03.09.31:221][288]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.09.34:739][291]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.17:784][183]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.18:118][184]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.18:448][185]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.18:784][186]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.19:117][187]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.19:448][188]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.19:781][189]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.20:115][190]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.20:448][191]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.20:782][192]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.21:121][193]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.21:454][194]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.22:440][195]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2018.02.19-03.12.22:451][196]LogVSAccessor: Warning: Couldn't get Visual Studio COM object
-[2018.02.19-03.12.22:454][196]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:458][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:459][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:460][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:461][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:462][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:463][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:464][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:465][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:466][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:483][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:490][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:491][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:491][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:491][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.12.22:504][196]LogVSAccessor: Warning: Couldn't access module table
-[2018.02.19-03.14.50:766][786]LogEditorViewport: Clicking on Actor (LMB): CarpocalypsePawn (Player)
-[2018.02.19-03.15.04:563][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.02.19-03.15.37:303][722]LogEditorViewport: Clicking on Actor (LMB): CarpocalypsePawn (Player)
-[2018.02.19-03.15.45:025][630]LogEditorViewport: Clicking on Actor (LMB): CarpocalypsePawn (Player)
-[2018.02.19-03.15.46:430][792]LogEditorViewport: Clicking on Actor (context menu): CarpocalypsePawn (Player)
-[2018.02.19-03.17.20:320][501]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.02.19-03.17.59:937][697]Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Carpocalypse.uproject" -game -rocket -progress
-[2018.02.19-03.18.00:141][697]Discovering modules, targets and source code for project...
-[2018.02.19-03.18.03:073][697]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.02.19-03.18.03:080][697]Candidate modules for hot reload:
-[2018.02.19-03.18.03:080][697]  Carpocalypse
-[2018.02.19-03.18.03:080][697]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Carpocalypse -ModuleWithSuffix Carpocalypse 5747 Win64 Development -editorrecompile -canskiplink "C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Carpocalypse.uproject" ]
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: New page: Compilation - 20 Feb 2018 1:18:17 am
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Creating makefile for hot reloading Carpocalypse (new files with reflected types)
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Compiling game modules for hot reload
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Parsing headers for CarpocalypseEditor
-[2018.02.19-03.18.17:948][697]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Carpocalypse.uproject" "C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\CarpocalypseEditor\Development\CarpocalypseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Reflection code generated for CarpocalypseEditor in 7.4987836 seconds
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Performing 7 actions (4 in parallel)
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: PlayerTestScript.gen.cpp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: PlayerTestScript.cpp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Carpocalypse.init.gen.cpp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: testcharacter1.cpp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: testcharacter1.gen.cpp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: [6/7] Link UE4Editor-Carpocalypse-5747.dll
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: [7/7] Link UE4Editor-Carpocalypse-5747.lib
-[2018.02.19-03.18.17:948][697]CompilerResultsLog:    Creating library C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-5747.lib and object C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-5747.exp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog:    Creating library C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-5747.suppressed.lib and object C:\Users\jman\Documents\GitHub\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-5747.suppressed.exp
-[2018.02.19-03.18.17:948][697]CompilerResultsLog: Total build time: 14.61 seconds (Local executor: 1.32 seconds)
-[2018.02.19-03.18.17:948][697]LogMainFrame: MainFrame: Module compiling took 14.875 seconds
-[2018.02.19-03.18.18:023][697]LogClass: Could not find existing class PlayerTestScript in package /Script/Carpocalypse for HotReload, assuming new class
-[2018.02.19-03.18.18:027][697]LogContentBrowser: Native class hierarchy updated for 'Carpocalypse' in 0.0008 seconds. Added 6 classes and 3 folders.
-[2018.02.19-03.18.18:029][697]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2018.02.19-03.18.18:067][697]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2371 classes and 526 folders.
-[2018.02.19-03.18.18:067][697]Display: HotReload took 15.0s.
-[2018.02.19-03.18.18:068][697]Warning: HotReload operation took 15.0s.
-[2018.02.19-03.18.18:093][697]LogHotReload: New module detected: UE4Editor-Carpocalypse-5747.dll
-[2018.02.19-03.18.18:156][698]LogHotReload: Starting Hot-Reload from IDE
-[2018.02.19-03.18.18:250][698]LogContentBrowser: Native class hierarchy updated for 'Carpocalypse' in 0.0006 seconds. Added 6 classes and 3 folders.
-[2018.02.19-03.18.18:251][698]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.02.19-03.18.18:268][698]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2371 classes and 526 folders.
-[2018.02.19-03.18.18:273][698]Display: HotReload took  0.1s.
-[2018.02.19-03.18.25:568][538]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.19-03.19.02:757][996]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.19-03.19.11:906][ 51]LogSavePackage: Save=117.43ms
-[2018.02.19-03.19.11:906][ 51]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky_Auto1EE7AA8974535DD475E2AAC9FC945A16D.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/Jacky_Auto1.umap'
-[2018.02.19-03.19.11:908][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/Jacky_Auto1.umap
-[2018.02.19-03.19.11:910][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStick/TestingScenes/Jacky/Jacky' took 0.142
-[2018.02.19-03.19.11:910][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
-[2018.02.19-03.19.11:913][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData] ([1] browsable assets)...
-[2018.02.19-03.19.11:913][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData]
-[2018.02.19-03.19.11:925][ 51]LogSavePackage: Save=10.63ms
-[2018.02.19-03.19.11:925][ 51]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky_BuiltData_Auto1B84722684DD7552A84F9FC8019F0D92A.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData_Auto1.uasset'
-[2018.02.19-03.19.11:928][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/Jacky_BuiltData_Auto1.uasset
-[2018.02.19-03.19.11:928][ 51]LogFileHelpers: Auto-saving content packages took 0.016
-[2018.02.19-04.21.06:875][ 64]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{2dc32656-a784-4d30-bd6e-5a089bb6f4fa} was removed. Shutting down audio device.
-[2018.02.19-04.21.06:875][ 64]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.19-04.21.07:928][ 67]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.02.19-04.21.08:305][ 68]LogRenderer: Reallocating scene render targets to support 1616x836 Format 10 NumSamples 1 (Frame:164162).
+LogInit: Warning: Incompatible or missing module: UE4Editor-Carpocalypse.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+LogModuleManager: Shutting down and abandoning module Renderer (16)
+LogModuleManager: Shutting down and abandoning module Engine (14)
+LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 03/04/18 21:49:03
