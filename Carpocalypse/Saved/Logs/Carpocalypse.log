@@ -1,4 +1,4 @@
-﻿Log file open, 03/04/18 21:48:54
+﻿Log file open, 03/05/18 08:57:41
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,14 +7,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Carpocalypse
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1619519675) SRandInit(1619519675).
+LogInit: Display: RandInit(-1057482002) SRandInit(-1057482002).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.185018
+LogStats: Stats thread started at 0.802703
 LogD3D11RHI: Aftermath initialized
-LogConfig: Warning: Failed to saved backup for config[Engine]
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -73,12 +72,10 @@ LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus
 LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
-LogConfig: Warning: Failed to saved backup for config[ProceduralMeshComponent]
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
-LogConfig: Warning: Failed to saved backup for config[SteamVR]
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Warning: Module file D:/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse-5747.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -152,25 +149,630 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Warning: Incompatible or missing module: UE4Editor-Carpocalypse.dll
-LogExit: Preparing to exit.
-LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-LogModuleManager: Shutting down and abandoning module Landscape (26)
-LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-LogModuleManager: Shutting down and abandoning module Renderer (16)
-LogModuleManager: Shutting down and abandoning module Engine (14)
-LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-LogModuleManager: Shutting down and abandoning module PakFile (2)
-LogExit: Exiting.
-Log file closed, 03/04/18 21:49:03
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.04-21.57.44:217][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-21.57.44:218][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.04-21.57.44:240][  0]LogInit: Computer: SYD-R102-PC12
+[2018.03.04-21.57.44:240][  0]LogInit: User: jman
+[2018.03.04-21.57.44:240][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.04-21.57.44:240][  0]LogInit: High frequency timer resolution =3.328122 MHz
+[2018.03.04-21.57.44:241][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.04-21.57.44:241][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.04-21.57.44:241][  0]LogMemory: Process Physical Memory: 277.80 MB used, 277.80 MB peak
+[2018.03.04-21.57.44:241][  0]LogMemory: Process Virtual Memory: 276.14 MB used, 276.14 MB peak
+[2018.03.04-21.57.44:241][  0]LogMemory: Physical Memory: 5122.55 MB used,  27560.60 MB free, 32683.16 MB total
+[2018.03.04-21.57.44:241][  0]LogMemory: Virtual Memory: 734.82 MB used,  27560.60 MB free, 134217728.00 MB total
+[2018.03.04-21.57.44:532][  0]LogInit: Using OS detected language (en-US).
+[2018.03.04-21.57.44:532][  0]LogInit: Using OS detected locale (en-AU).
+[2018.03.04-21.57.44:543][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.04-21.57.44:888][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.04-21.57.45:242][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.04-21.57.45:275][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.03.04-21.57.45:275][  0]LogD3D11RHI:       4060/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.04-21.57.45:277][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.04-21.57.45:277][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.04-21.57.45:277][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.04-21.57.45:281][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.04-21.57.45:282][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.04-21.57.45:282][  0]LogWindows: EnumDisplayDevices:
+[2018.03.04-21.57.45:282][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.03.04-21.57.45:282][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.04-21.57.45:282][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.04-21.57.45:282][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.04-21.57.45:282][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.04-21.57.45:282][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.03.04-21.57.45:282][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.04-21.57.45:282][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.04-21.57.45:282][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
+[2018.03.04-21.57.45:302][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.04-21.57.45:324][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.04-21.57.45:371][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Intermediate/Shaders/WorkingDirectory/5372/).
+[2018.03.04-21.57.45:372][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jman/AppData/Local/Temp/UnrealShaderWorkingDir/557706374F2FFE5D8555CC8816577294/'.
+[2018.03.04-21.57.45:372][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.04-21.57.47:616][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.04-21.57.47:668][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.04-21.57.47:721][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.04-21.57.47:775][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.04-21.57.47:830][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.04-21.57.47:882][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.04-21.57.47:931][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.04-21.57.47:984][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.04-21.57.48:029][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.04-21.57.48:079][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.04-21.57.48:130][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.04-21.57.48:194][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.04-21.57.48:244][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.04-21.57.48:295][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.04-21.57.48:393][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.04-21.57.48:393][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.04-21.57.48:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.04-21.57.48:490][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.04-21.57.48:589][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.04-21.57.48:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.04-21.57.48:663][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.04-21.57.48:711][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.04-21.57.48:760][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.04-21.57.48:810][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.04-21.57.48:810][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.04-21.57.49:359][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: Loaded boot cache 0.29s 78MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.04-21.57.49:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.04-21.57.49:690][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.04-21.57.49:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.04-21.57.49:717][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.04-21.57.49:722][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.04-21.57.49:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-21.57.49:728][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.04-21.57.50:525][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.04-21.57.50:912][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.04-21.57.50:958][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.04-21.57.50:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.04-21.57.50:958][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.04-21.57.50:958][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.04-21.57.50:958][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.04-21.57.51:000][  0]LogNetVersion: Carpocalypse , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 507098726)
+[2018.03.04-21.57.51:221][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2018.03.04-21.57.51:832][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.061019 seconds
+[2018.03.04-21.57.51:838][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.04-21.57.51:838][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.04-21.57.51:838][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.04-21.57.51:900][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.04-21.57.55:637][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.04-21.57.55:694][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.04-21.57.56:702][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.04-21.57.57:200][  0]SourceControl: Source control is disabled
+[2018.03.04-21.57.57:200][  0]SourceControl: Source control is disabled
+[2018.03.04-21.57.57:274][  0]SourceControl: Source control is disabled
+[2018.03.04-21.57.57:342][  0]SourceControl: Source control is disabled
+[2018.03.04-21.57.58:334][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.04-21.57.58:626][  0]LogOcInput: OculusInput pre-init called
+[2018.03.04-21.57.58:917][  0]LogEngine: Initializing Engine...
+[2018.03.04-21.57.58:920][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.04-21.57.59:103][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.04-21.57.59:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.04-21.57.59:249][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.04-21.57.59:270][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-21.57.59:298][  0]LogInit: FAudioDevice initialized.
+[2018.03.04-21.57.59:369][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.04-21.57.59:373][  0]LogInit: Texture streaming: Enabled
+[2018.03.04-21.57.59:479][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.04-21.57.59:663][  0]LogInit: Transaction tracking system initialized
+[2018.03.04-21.58.00:166][  0]BlueprintLog: New page: Editor Load
+[2018.03.04-21.58.01:252][  0]LocalizationService: Localization service is disabled
+[2018.03.04-21.58.02:103][  0]LogConsoleResponse: Display: 
+[2018.03.04-21.58.02:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/' took 0.01s
+[2018.03.04-21.58.02:307][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.04-21.58.02:307][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.04-21.58.02:308][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.04-21.58.03:685][  0]SourceControl: Source control is disabled
+[2018.03.04-21.58.03:687][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-21.58.03:688][  0]LightingResults: New page: Lighting Build
+[2018.03.04-21.58.03:734][  0]MapCheck: New page: Map Check
+[2018.03.04-21.58.03:734][  0]LightingResults: New page: Lighting Build
+[2018.03.04-21.58.03:973][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.03.04-21.58.03:987][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-21.58.04:000][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-21.58.04:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.142ms to complete.
+[2018.03.04-21.58.04:055][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.369
+[2018.03.04-21.58.04:286][  0]LogCollectionManager: Loaded 0 collections in 0.001534 seconds
+[2018.03.04-21.58.04:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Collections/' took 0.01s
+[2018.03.04-21.58.04:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Developers/jman/Collections/' took 0.01s
+[2018.03.04-21.58.04:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Collections/' took 0.01s
+[2018.03.04-21.58.04:414][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.04-21.58.04:423][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2369 classes and 522 folders.
+[2018.03.04-21.58.04:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.04-21.58.04:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.04-21.58.04:636][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.04-21.58.04:703][  0]LogSlate: Took 0.001138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-21.58.04:708][  0]LogSlate: Took 0.001804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.04-21.58.04:714][  0]LogSlate: Took 0.000861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.04-21.58.04:816][  0]LogRenderer: Reallocating scene render targets to support 1616x812 Format 10 NumSamples 1 (Frame:1).
+[2018.03.04-21.58.05:006][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.03.04-21.58.05:006][  0]LogLoad: (Engine Initialization) Total time: 25.55 seconds
+[2018.03.04-21.58.05:006][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.04-21.58.05:006][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.04-21.58.05:006][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.04-21.58.05:362][  0]LogAssetRegistry: Asset discovery search completed in 14.1652 seconds
+[2018.03.04-21.58.05:363][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.04-21.58.05:363][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2018.03.04-21.58.05:368][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.04-21.58.16:109][122]LogSlate: Took 0.000881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-21.58.16:172][122]LogAIModule: Creating AISystem for world Jacky
+[2018.03.04-21.58.16:187][122]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.04-21.58.16:187][122]LightingResults: New page: Lighting Build
+[2018.03.04-21.58.16:187][122]LoadErrors: New page: Loading map: Jacky.umap
+[2018.03.04-21.58.16:188][122]MapCheck: New page: Map Check
+[2018.03.04-21.58.16:188][122]LightingResults: New page: Lighting Build
+[2018.03.04-21.58.16:200][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.04-21.58.16:217][122]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.04-21.58.16:300][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.797ms to complete.
+[2018.03.04-21.58.16:300][122]LogFileHelpers: Loading map 'Jacky' took 0.115
+[2018.03.04-21.58.21:431][727]LogEditorViewport: Clicking on Actor (LMB): SplineMovement_C (SplineMovement)
+[2018.03.04-21.58.31:051][798]LogEditorViewport: Clicking on Actor (LMB): SplineMovement_C (SplineMovement)
+[2018.03.04-21.58.36:554][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-21.58.42:861][200]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.04-21.58.42:878][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky' with GeneratedClass '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky_C' with ClassGeneratedBy '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky'
+[2018.03.04-21.58.42:879][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.04-21.58.42:879][200]PIE: New page: PIE session: Jacky (5 Mar 2018 7:58:42 pm)
+[2018.03.04-21.58.42:879][200]LogPlayLevel: Creating play world package: /Game/TwinStick/TestingScenes/Jacky/UEDPIE_0_Jacky
+[2018.03.04-21.58.42:900][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020302s)
+[2018.03.04-21.58.42:901][200]LogAIModule: Creating AISystem for world Jacky
+[2018.03.04-21.58.42:901][200]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2018.03.04-21.58.42:901][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky to /Game/TwinStick/TestingScenes/Jacky/UEDPIE_0_Jacky.Jacky (0.021923s)
+[2018.03.04-21.58.42:923][200]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.04-21.58.42:934][200]LogInit: FAudioDevice initialized.
+[2018.03.04-21.58.42:985][200]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.04-21.58.42:993][200]LogWorld: Bringing World /Game/TwinStick/TestingScenes/Jacky/UEDPIE_0_Jacky.Jacky up for play (max tick rate 0) at 2018.03.05-08.58.42
+[2018.03.04-21.58.42:994][200]LogWorld: Bringing up level for play took: 0.003114
+[2018.03.04-21.58.43:074][200]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.03.04-21.58.43:075][200]PIE: Play in editor start time for /Game/TwinStick/TestingScenes/Jacky/UEDPIE_0_Jacky 1.03
+[2018.03.04-21.58.43:075][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky' with GeneratedClass '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky_C' with ClassGeneratedBy '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky'
+[2018.03.04-21.58.45:535][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky' with GeneratedClass '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky_C' with ClassGeneratedBy '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky'
+[2018.03.04-21.58.45:565][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky' with GeneratedClass '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky_C' with ClassGeneratedBy '/Game/TwinStick/TestingScenes/Jacky/Jacky.Jacky:PersistentLevel.Jacky'
+[2018.03.04-21.59.02:900][506]LogEditorViewport: Clicking on Actor (LMB): SplineMovement_C (SplineMovement)
+[2018.03.04-21.59.10:792][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-22.00.22:355][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-22.01.45:682][484]LogEditorViewport: Clicking on Actor (LMB): SplineMovement_C (SplineMovement)
+[2018.03.04-22.01.50:703][ 80]LogSlate: Took 0.001300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.04-22.08.49:129][394]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.03.04-22.08.49:679][394]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.04-22.08.49:744][394]LogSlate: Took 0.001478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.04-22.08.53:620][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-22.08.58:793][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-22.08.59:589][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.04-22.09.00:134][411]LogEditorViewport: Clicking on Actor (LMB): SplineMovement_C (SplineMovement)
+[2018.03.04-22.09.14:883][160]Cmd: TRANSACTION UNDO
+[2018.03.04-22.09.14:883][160]LogEditorTransaction: Undo Move Actors
+[2018.03.04-22.09.14:892][160]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.04-22.09.15:617][242]Cmd: TRANSACTION UNDO
+[2018.03.04-22.09.15:617][242]LogEditorTransaction: Undo Add Spline Point
+[2018.03.04-22.09.38:801][450]LogSavePackage: Save=28.77ms
+[2018.03.04-22.09.38:801][450]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineMovement851ECD534AFE966875D3609AFC72843A.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineMovement.uasset'
+[2018.03.04-22.09.38:806][450]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineMovement.uasset
+[2018.03.04-22.09.41:903][774]LogSavePackage: Save=110.12ms
+[2018.03.04-22.09.41:903][774]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/JackyAFBD5DDB4FE8A99F9356628B29424E08.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.04-22.09.41:909][774]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.04-22.09.41:918][774]LogFileHelpers: Saving map 'Jacky' took 0.199
+[2018.03.04-22.09.45:038][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.05-00.34.00:320][341]LogEditorTransaction: Undo Add Node
+[2018.03.05-00.34.02:272][512]LogSavePackage: Save=29.13ms
+[2018.03.05-00.34.02:272][512]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineMovementA1BD37C245F06DA50998DBA8AEC0D90F.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineMovement.uasset'
+[2018.03.05-00.34.02:276][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineMovement.uasset
+[2018.03.05-00.34.23:774][590]LogSavePackage: Save=115.99ms
+[2018.03.05-00.34.23:774][590]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/JackyE1C865874B6B03F70A6F1F84AA6C112D.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.05-00.34.23:780][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.05-00.34.23:807][590]LogFileHelpers: Saving map 'Jacky' took 0.230
+[2018.03.05-00.40.23:463][817]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:1).
+[2018.03.05-00.40.32:104][687]LogSavePackage: Save=7.71ms
+[2018.03.05-00.40.32:104][687]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineTrackDD9F337B471B0E41B322599240F1F989.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset'
+[2018.03.05-00.40.32:109][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset
+[2018.03.05-00.40.41:180][718]LogEditorActor: Deleted Actor: SplineMovement_C
+[2018.03.05-00.40.41:195][718]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.05-00.40.58:069][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.05-00.41.29:868][829]Cmd: DELETE
+[2018.03.05-00.41.29:869][829]Cmd: ACTOR DELETE
+[2018.03.05-00.41.29:874][829]LogEditorActor: Deleted Actor: CarpocalypsePawn
+[2018.03.05-00.41.29:939][829]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2018.03.05-00.41.32:276][109]Cmd: TRANSACTION UNDO
+[2018.03.05-00.41.32:276][109]LogEditorTransaction: Undo Delete Actors
+[2018.03.05-00.42.20:272][346]LogEditorTransaction: Undo Add Component
+[2018.03.05-00.42.40:745][757]LogSavePackage: Save=109.28ms
+[2018.03.05-00.42.40:745][757]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky2D97A34B48FAFFB4B5490DB24D7689C2.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.05-00.42.40:750][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.05-00.42.40:780][757]LogFileHelpers: Saving map 'Jacky' took 0.221
+[2018.03.05-00.42.40:844][757]LogSavePackage: Save=29.09ms
+[2018.03.05-00.42.40:844][757]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerTestC13AA60F4FC457E1DCB64499F9458F3F.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset'
+[2018.03.05-00.42.40:850][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset
+[2018.03.05-00.42.42:064][898]BlueprintLog: New page: Compile SplineTrack
+[2018.03.05-00.42.42:954][976]BlueprintLog: New page: Compile PlayerTest
+[2018.03.05-00.43.25:986][ 67]LogSavePackage: Save=134.85ms
+[2018.03.05-00.43.25:987][ 67]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky6CD7EA59483D5E97D293CA95B8867FE3.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.05-00.43.25:992][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.05-00.43.26:003][ 67]LogFileHelpers: Saving map 'Jacky' took 0.223
+[2018.03.05-00.43.26:052][ 67]LogSavePackage: Save=14.47ms
+[2018.03.05-00.43.26:052][ 67]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerTest44D6FD4947BADAFEB46AECB06E01C175.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset'
+[2018.03.05-00.43.26:056][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset
+[2018.03.05-00.44.23:683][928]BlueprintLog: New page: Compile SplineTrack
+[2018.03.05-00.46.45:033][427]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.05-00.47.00:870][265]LogSavePackage: Save=116.14ms
+[2018.03.05-00.47.00:870][265]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky6C810F754461149EF948F18628F1D1A2.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.05-00.47.00:874][265]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.05-00.47.00:886][265]LogFileHelpers: Saving map 'Jacky' took 0.203
+[2018.03.05-00.47.00:904][265]LogSavePackage: Save=10.34ms
+[2018.03.05-00.47.00:904][265]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineTrackED6624164349863A0299108A52C35F11.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset'
+[2018.03.05-00.47.00:908][265]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset
+[2018.03.05-00.47.22:616][348]LogSavePackage: Save=8.61ms
+[2018.03.05-00.47.22:616][348]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineTrackEA72E578406AC658D59690BB2F0B6F36.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset'
+[2018.03.05-00.47.22:620][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset
+[2018.03.05-00.47.24:054][520]BlueprintLog: New page: Compile SplineTrack
+[2018.03.05-00.48.53:362][835]LogSavePackage: Save=113.66ms
+[2018.03.05-00.48.53:362][835]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Jacky6264ADFA41DCF7C09FB50FBBDC68172C.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap'
+[2018.03.05-00.48.53:367][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/Jacky.umap
+[2018.03.05-00.48.53:378][835]LogFileHelpers: Saving map 'Jacky' took 0.206
+[2018.03.05-00.50.05:527][202]LogSavePackage: Save=8.71ms
+[2018.03.05-00.50.05:527][202]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/SplineTrack6235EDEA4ED8C985093D0EB455674B9E.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset'
+[2018.03.05-00.50.05:528][202]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/SplineTrack.uasset
+[2018.03.05-00.51.31:208][411]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.05-00.52.30:517][435]LogSavePackage: Save=19.57ms
+[2018.03.05-00.52.30:517][435]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerTestA2419D6B410EC6E9BAC559837D144E93.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset'
+[2018.03.05-00.52.30:521][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/TwinStick/TestingScenes/Jacky/PlayerTest.uasset
+[2018.03.05-02.08.53:590][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStick/TestingScenes/Jacky/Jacky' took 0.018
+[2018.03.05-02.08.53:593][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStick/TestingScenes/Jacky/PlayerTest] ([1] browsable assets)...
+[2018.03.05-02.08.53:606][ 93]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStick/TestingScenes/Jacky/PlayerTest.PlayerTest]
+[2018.03.05-02.08.53:606][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStick/TestingScenes/Jacky/PlayerTest]
+[2018.03.05-02.08.53:632][ 93]LogSavePackage: Save=19.79ms
+[2018.03.05-02.08.53:632][ 93]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerTest_Auto19B16116C420D9E43067756898EA298C9.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/PlayerTest_Auto1.uasset'
+[2018.03.05-02.08.53:634][ 93]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/TwinStick/TestingScenes/Jacky/PlayerTest_Auto1.uasset
+[2018.03.05-02.08.53:634][ 93]LogFileHelpers: Auto-saving content packages took 0.042
+[2018.03.05-02.34.55:865][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.05-02.34.55:923][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.05-02.34.56:233][619]Cmd: QUIT_EDITOR
+[2018.03.05-02.34.56:697][619]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.05-02.34.56:698][619]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.05-02.34.56:739][619]LogExit: Preparing to exit.
+[2018.03.05-02.34.56:960][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/' was aborted.
+[2018.03.05-02.34.57:010][619]LogExit: Editor shut down
+[2018.03.05-02.34.57:017][619]LogExit: Transaction tracking system shut down
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.05-02.34.57:159][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.05-02.34.57:226][619]LogExit: Object subsystem successfully closed.
+[2018.03.05-02.34.57:245][619]LogD3D11RHI: Shutdown
+[2018.03.05-02.34.57:245][619]LogD3D11RHI: CleanupD3DDevice
+[2018.03.05-02.34.57:248][619]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.05-02.34.57:265][619]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.05-02.34.57:265][619]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.05-02.34.57:266][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Collections/' was aborted.
+[2018.03.05-02.34.57:266][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Developers/jman/Collections/' was aborted.
+[2018.03.05-02.34.57:266][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Collections/' was aborted.
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.05-02.34.57:266][619]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.05-02.34.57:267][619]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.05-02.34.58:250][619]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.05-02.34.58:251][619]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.05-02.34.58:252][619]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.05-02.34.58:252][619]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.05-02.34.58:252][619]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.05-02.34.58:315][619]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.05-02.34.58:316][619]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.05-02.34.58:316][619]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.05-02.34.58:316][619]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.05-02.34.58:316][619]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.05-02.34.58:338][619]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.05-02.34.58:341][619]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.05-02.34.58:342][619]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.05-02.34.58:343][619]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.05-02.34.58:343][619]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module OculusInput (340)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module CableComponent (334)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
+[2018.03.05-02.34.58:430][619]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.03.05-02.34.58:431][619]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.03.05-02.34.58:432][619]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.03.05-02.34.58:435][619]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.03.05-02.34.58:435][619]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.03.05-02.34.58:435][619]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.03.05-02.34.58:435][619]LogDirectoryWatcher: A directory notification for 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64' was aborted.
+[2018.03.05-02.34.58:436][619]LogModuleManager: Shutting down and abandoning module Carpocalypse (270)
+[2018.03.05-02.34.58:436][619]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.05-02.34.58:436][619]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.05-02.34.58:436][619]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.05-02.34.58:436][619]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.05-02.34.58:437][619]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.05-02.34.58:437][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.05-02.34.58:437][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.05-02.34.58:437][619]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.05-02.34.58:538][619]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.05-02.34.58:638][619]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.05-02.34.58:641][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.05-02.34.58:641][619]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.05-02.34.58:641][619]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.05-02.34.58:641][619]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.05-02.34.58:644][619]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.05-02.34.58:644][619]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.05-02.34.58:644][619]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.05-02.34.58:645][619]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.05-02.34.58:645][619]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.05-02.34.58:645][619]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.05-02.34.58:652][619]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.05-02.34.58:653][619]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.05-02.34.58:661][619]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.05-02.34.58:661][619]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.05-02.34.58:661][619]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.05-02.34.58:661][619]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.05-02.34.58:662][619]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.05-02.34.58:662][619]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.05-02.34.58:662][619]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.05-02.34.58:662][619]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.05-02.34.58:664][619]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.05-02.34.58:664][619]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.05-02.34.58:664][619]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.05-02.34.58:665][619]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.05-02.34.58:702][619]LogDerivedDataCache: Shutdown
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.05-02.34.58:702][619]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.05-02.34.58:703][619]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.05-02.34.58:704][619]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.05-02.34.58:705][619]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.05-02.34.58:706][619]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.05-02.34.58:706][619]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.05-02.34.58:706][619]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8E4EBDB-4F42-C7AE-5842-49B9E37DD2B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f65fdfb944b42471c8fe45918ca32ce9%7C5847cd64de044139ab896601d25803f0%7C9ad5ed9a-ea06-44ea-806b-38f08c3aad6b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.05-02.34.58:728][619]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.05-02.34.58:732][619]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.05-02.34.58:733][619]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.05-02.34.58:737][619]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.05-02.34.58:747][619]LogExit: Exiting.
+[2018.03.05-02.34.58:775][619]Log file closed, 03/05/18 13:34:58
