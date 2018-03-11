@@ -348,3 +348,183 @@ LogInit: Object subsystem initialized
 [2018.03.11-23.08.33:864][  1]LogAssetRegistry: Asset discovery search completed in 13.0887 seconds
 [2018.03.11-23.08.33:865][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2018.03.11-23.08.33:865][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.03.11-23.13.37:325][928]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-23.13.37:341][928]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-23.13.37:341][928]LightingResults: New page: Lighting Build
+[2018.03.11-23.13.37:342][928]LoadErrors: New page: Loading map: MainMap.umap
+[2018.03.11-23.13.37:343][928]MapCheck: New page: Map Check
+[2018.03.11-23.13.37:343][928]LightingResults: New page: Lighting Build
+[2018.03.11-23.13.37:373][928]LogAIModule: Creating AISystem for world MainMap
+[2018.03.11-23.13.37:377][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-23.13.37:422][928]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-23.13.37:470][928]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.36ms to complete.
+[2018.03.11-23.13.37:471][928]LogFileHelpers: Loading map 'MainMap' took 0.131
+[2018.03.11-23.14.16:606][613]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-23.14.16:607][613]LightingResults: New page: Lighting Build
+[2018.03.11-23.14.16:607][613]LoadErrors: New page: Loading map: MainMap.umap
+[2018.03.11-23.14.16:608][613]MapCheck: New page: Map Check
+[2018.03.11-23.14.16:608][613]LightingResults: New page: Lighting Build
+[2018.03.11-23.14.16:637][613]LogAIModule: Creating AISystem for world MainMap
+[2018.03.11-23.14.16:641][613]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-23.14.16:668][613]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-23.14.16:716][613]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.568ms to complete.
+[2018.03.11-23.14.16:717][613]LogFileHelpers: Loading map 'MainMap' took 0.112
+[2018.03.11-23.14.28:149][953]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-23.15.01:692][254]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.03.11-23.15.02:220][254]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-23.15.02:341][254]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:1).
+[2018.03.11-23.15.04:441][490]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.11-23.15.23:436][703]BlueprintLog: New page: Compile Spline
+[2018.03.11-23.20.36:509][812]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.11-23.23.13:626][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset" SILENT=true
+[2018.03.11-23.23.13:638][ 18]LogSavePackage: Save=9.87ms
+[2018.03.11-23.23.13:638][ 18]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Spline2D1954294AAB2F63D764BFAF0139925F.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset'
+[2018.03.11-23.23.13:642][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset
+[2018.03.11-23.23.13:645][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.23.13:659][ 18]LogSavePackage: Save=12.37ms
+[2018.03.11-23.23.13:660][ 18]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController6D0069C3495B4DEC7178398F5E9AB6A5.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.23.13:663][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.SKEL_BP_Spline_C' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline_C' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
+[2018.03.11-23.23.23:027][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.23.23:038][ 91]LogSavePackage: Save=9.02ms
+[2018.03.11-23.23.23:038][ 91]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineA041DDBE4B554EFA830071B048D36A0B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.23.23:043][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.23.23:210][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.23.23:227][ 91]LogSavePackage: Save=11.70ms
+[2018.03.11-23.23.23:227][ 91]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerF581CA0A4469FCA0D9D6209D8346FAEF.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.23.23:231][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.23.24:252][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.23.24:265][195]LogSavePackage: Save=8.27ms
+[2018.03.11-23.23.24:265][195]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline4D47062E46B5BC21B38263AF4472E5E1.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.23.24:268][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.23.26:982][517]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.23.55:318][883]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.28.10:242][418]LogSlate: Took 0.000730 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-23.28.19:339][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MainMap' took 0.035
+[2018.03.11-23.28.19:341][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PlayerController] ([1] browsable assets)...
+[2018.03.11-23.28.19:341][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerController]
+[2018.03.11-23.28.19:364][445]LogSavePackage: Save=17.90ms
+[2018.03.11-23.28.19:365][445]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController_Auto17DB7220C4CC09FC94DA415AEB9614E95.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset'
+[2018.03.11-23.28.19:367][445]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset
+[2018.03.11-23.28.19:367][445]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.03.11-23.29.14:590][214]LogSlate: Took 0.001708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.11-23.32.34:093][ 54]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.11-23.33.41:891][  2]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.34.13:472][697]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.11-23.34.32:036][914]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.34.38:380][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.34.38:400][632]LogSavePackage: Save=15.16ms
+[2018.03.11-23.34.38:400][632]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController0F21F0074C592D56E6349780BB2D1DC8.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.34.38:404][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.34.38:408][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.34.38:420][632]LogSavePackage: Save=7.70ms
+[2018.03.11-23.34.38:420][632]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline371F0EE747BFC43748D7DD8645DAC253.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.34.38:424][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.35.39:137][814]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.36.23:297][ 46]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.36.43:788][434]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.36.48:140][922]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.37.24:942][176]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.37.24:949][176]LogBlueprint: Error: [Compiler PlayerController] This blueprint (self) is not a BP_Spline_C, therefore ' Target ' must have a connection.
+[2018.03.11-23.37.24:949][176]LogBlueprint: Error: [Compiler PlayerController] Variable node  Set DD  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.03.11-23.37.25:041][176]LogBlueprint: Warning: [Compiler PlayerController] [1752.84] Compile of PlayerController failed. 2 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/BluePrints/PlayerController.PlayerController)
+[2018.03.11-23.37.31:766][977]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.38.39:482][584]LogEditorTransaction: Undo Delete current selection
+[2018.03.11-23.38.39:766][617]LogEditorTransaction: Undo Create Pin Link
+[2018.03.11-23.38.40:216][671]LogEditorTransaction: Undo Delete current selection
+[2018.03.11-23.38.40:663][724]LogEditorTransaction: Undo Create Pin Link
+[2018.03.11-23.38.40:946][758]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.41:414][814]LogEditorTransaction: Undo Add Node
+[2018.03.11-23.38.41:687][846]LogEditorTransaction: Undo Add Node
+[2018.03.11-23.38.41:930][875]LogEditorTransaction: Undo Delete current selection
+[2018.03.11-23.38.42:175][904]LogEditorTransaction: Undo Create Pin Link
+[2018.03.11-23.38.42:418][933]LogEditorTransaction: Undo Add Node
+[2018.03.11-23.38.42:671][963]LogEditorTransaction: Undo Rename Variable
+[2018.03.11-23.38.43:286][ 35]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.43:574][ 67]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.43:837][ 97]LogEditorTransaction: Undo Comment Bubble Visibility
+[2018.03.11-23.38.44:094][125]LogEditorTransaction: Undo Create Pin Link
+[2018.03.11-23.38.44:355][155]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.44:609][184]LogEditorTransaction: Undo Move Nodes
+[2018.03.11-23.38.44:871][214]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.45:157][247]LogEditorTransaction: Undo Promote To Variable
+[2018.03.11-23.38.45:452][281]LogEditorTransaction: Undo Add Component Nodes
+[2018.03.11-23.38.45:812][323]LogEditorTransaction: Undo Delete current selection
+[2018.03.11-23.38.46:157][364]LogEditorTransaction: Undo Create Pin Link
+[2018.03.11-23.38.46:482][403]LogEditorTransaction: Undo Move Node
+[2018.03.11-23.38.46:718][430]LogEditorTransaction: Undo Add Node
+[2018.03.11-23.38.46:922][454]LogEditorTransaction: Undo Make New Scene Root
+[2018.03.11-23.38.47:171][483]LogEditorTransaction: Undo Delete current selection
+[2018.03.11-23.38.49:159][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.38.49:191][715]LogSavePackage: Save=26.12ms
+[2018.03.11-23.38.49:191][715]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerFD902BAA499C132534D15D8E08E08BD7.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.38.49:206][715]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.39.56:058][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.39.56:078][839]LogSavePackage: Save=15.26ms
+[2018.03.11-23.39.56:078][839]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController50B1BC3B464E0286E733E7B01789503B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.39.56:082][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.40.21:231][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.40.21:244][833]LogSavePackage: Save=8.53ms
+[2018.03.11-23.40.21:244][833]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineCC70279B4B5E91735FD1B9A231B3EBCC.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.40.21:249][833]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.40.21:801][899]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.40.38:761][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.40.38:772][897]LogSavePackage: Save=7.86ms
+[2018.03.11-23.40.38:772][897]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineFD41C3FC41A8F270D35D29828CE13489.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.40.38:777][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.40.45:079][650]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.40.46:369][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.40.46:380][783]LogSavePackage: Save=7.55ms
+[2018.03.11-23.40.46:380][783]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineDA8F4A2D4A28E20A47FF4D9FE9FC1367.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.40.46:382][783]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.40.57:608][125]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.11-23.41.09:173][505]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.42.19:041][773]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.42.35:492][676]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.43.05:138][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.11-23.43.29:356][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.43.29:365][678]LogSavePackage: Save=7.07ms
+[2018.03.11-23.43.29:365][678]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline85DB36DA4B54132535E74BB773E0E97C.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.43.29:370][678]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.43.30:315][791]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.43.30:949][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.43.30:960][846]LogSavePackage: Save=7.26ms
+[2018.03.11-23.43.30:960][846]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline216BC7A44BA7458129E06297340739D9.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.43.30:962][846]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.43.49:433][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.43.49:441][885]LogSavePackage: Save=6.77ms
+[2018.03.11-23.43.49:441][885]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController98724C804C9E02C55B98129367D076B4.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.43.49:445][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.44.12:505][584]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.11-23.45.39:340][894]LogEditorTransaction: Undo Rename Variable
+[2018.03.11-23.45.41:746][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.45.41:767][174]LogSavePackage: Save=14.36ms
+[2018.03.11-23.45.41:767][174]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController11F7C8A041ADB16DEF1DCF8976DD1283.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.45.41:771][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.45.43:599][391]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.47.06:671][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.47.06:690][177]LogSavePackage: Save=15.32ms
+[2018.03.11-23.47.06:690][177]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerE090D2B542CE781CF4E28983CA934D3C.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.47.06:693][177]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.48.01:941][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.48.01:961][671]LogSavePackage: Save=16.79ms
+[2018.03.11-23.48.01:961][671]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController72B83A3C4745EE6D74C00390ADF969F5.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.48.01:967][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.48.03:575][863]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.48.03:582][863]LogBlueprint: Warning: [Compiler PlayerController] Can't parse default value 'None' for  Distance Along Spline . Property: DistanceAlongSpline.
+[2018.03.11-23.48.03:735][863]LogBlueprint: Warning: [Compiler PlayerController] [2391.54] Compile of PlayerController successful, but with 1 Warning(s) [in 160 ms] (/Game/BluePrints/PlayerController.PlayerController)
+[2018.03.11-23.48.26:633][306]BlueprintLog: New page: Compile PlayerController
+[2018.03.11-23.48.27:913][431]BlueprintLog: New page: Compile BP_Spline
+[2018.03.11-23.48.28:360][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
+[2018.03.11-23.48.28:373][452]LogSavePackage: Save=7.67ms
+[2018.03.11-23.48.28:373][452]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineF141EBD74D67FFC11CAE9BB90D091CC1.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
+[2018.03.11-23.48.28:375][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
+[2018.03.11-23.48.29:233][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
+[2018.03.11-23.48.29:254][552]LogSavePackage: Save=17.94ms
+[2018.03.11-23.48.29:254][552]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerF5A4D8C4413C85F0445FB1BE0993970B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.11-23.48.29:256][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
