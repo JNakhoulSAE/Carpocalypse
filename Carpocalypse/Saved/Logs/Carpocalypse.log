@@ -897,3 +897,144 @@ Scale3D: 1.000000 1.000000 1.000000
 [2018.03.12-00.14.42:124][863]LogSavePackage: Save=44.39ms
 [2018.03.12-00.14.42:124][863]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerControllerF9D489604D321F3A714249B52273B114.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
 [2018.03.12-00.14.42:128][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-00.24.41:742][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MainMap' took 0.022
+[2018.03.12-00.24.41:745][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PlayerController] ([1] browsable assets)...
+[2018.03.12-00.24.41:745][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerController]
+[2018.03.12-00.24.41:802][506]LogSavePackage: Save=49.29ms
+[2018.03.12-00.24.41:802][506]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerController_Auto12F7EC8414A910C51B468D5BA58345914.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset'
+[2018.03.12-00.24.41:805][506]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset
+[2018.03.12-00.24.41:805][506]LogFileHelpers: Auto-saving content packages took 0.062
+[2018.03.12-00.26.19:884][249]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.26.19:906][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.26.19:907][249]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.12-00.26.19:915][249]LogPlayLevel: [PlayLevel] Compiling PlayerController before play...
+[2018.03.12-00.26.20:228][249]LogPlayLevel: PlayLevel: Blueprint regeneration took 321 ms (1 blueprints)
+[2018.03.12-00.26.20:229][249]PIE: New page: PIE session: MainMap (12 Mar 2018 10:26:20 pm)
+[2018.03.12-00.26.20:229][249]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.26.20:243][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014051s)
+[2018.03.12-00.26.20:244][249]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.26.20:245][249]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2018.03.12-00.26.20:245][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.016589s)
+[2018.03.12-00.26.20:279][249]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.26.20:287][249]LogInit: FAudioDevice initialized.
+[2018.03.12-00.26.20:323][249]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.26.20:326][249]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.26.20
+[2018.03.12-00.26.20:327][249]LogWorld: Bringing up level for play took: 0.001978
+[2018.03.12-00.26.20:329][249]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.26.20:329][249]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.26.20:331][249]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 1.268
+[2018.03.12-00.26.20:332][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.26.25:791][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.26.25:829][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.27.03:772][350]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.27.05:357][445]LogSavePackage: Save=170.58ms
+[2018.03.12-00.27.05:357][445]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap07EC540848C02F92D8561DBAA9E76EC8.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.27.05:363][445]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.27.05:398][445]LogFileHelpers: Saving map 'MainMap' took 0.302
+[2018.03.12-00.27.05:457][445]LogSavePackage: Save=50.76ms
+[2018.03.12-00.27.05:458][445]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerControllerB8EED73847C82C7D0C72CDB880EC551B.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-00.27.05:463][445]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-00.27.08:360][784]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.27.08:380][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.27.08:380][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.27.08:380][784]PIE: New page: PIE session: MainMap (12 Mar 2018 10:27:08 pm)
+[2018.03.12-00.27.08:380][784]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.27.08:393][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012275s)
+[2018.03.12-00.27.08:394][784]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.27.08:394][784]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2018.03.12-00.27.08:394][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.013959s)
+[2018.03.12-00.27.08:426][784]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.27.08:434][784]LogInit: FAudioDevice initialized.
+[2018.03.12-00.27.08:474][784]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.27.08:477][784]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.27.08
+[2018.03.12-00.27.08:478][784]LogWorld: Bringing up level for play took: 0.002063
+[2018.03.12-00.27.08:480][784]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.27.08:480][784]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.27.08:481][784]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap -0.582
+[2018.03.12-00.27.08:482][784]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.27.15:825][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.27.15:861][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.28.55:676][337]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.28.57:409][490]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.28.57:429][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.28.57:429][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.28.57:430][490]PIE: New page: PIE session: MainMap (12 Mar 2018 10:28:57 pm)
+[2018.03.12-00.28.57:430][490]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.28.57:443][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013231s)
+[2018.03.12-00.28.57:444][490]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.28.57:445][490]LogPlayLevel: PIE: World Init took: (0.001428s)
+[2018.03.12-00.28.57:445][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.015545s)
+[2018.03.12-00.28.57:478][490]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.28.57:485][490]LogInit: FAudioDevice initialized.
+[2018.03.12-00.28.57:518][490]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.28.57:522][490]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.28.57
+[2018.03.12-00.28.57:523][490]LogWorld: Bringing up level for play took: 0.002263
+[2018.03.12-00.28.57:524][490]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.28.57:525][490]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.28.57:527][490]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.464
+[2018.03.12-00.28.57:527][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.28.57:967][538]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.28.58:601][614]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.28.59:584][732]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.01:709][987]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.02:593][ 93]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.02:951][136]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:118][156]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:293][177]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:451][196]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:593][213]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:718][228]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.03:876][247]LogBlueprintUserMessages: [PlayerController_583] D pressed
+[2018.03.12-00.29.04:252][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.29.04:289][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.29.31:726][546]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.29.35:916][982]LogSavePackage: Save=48.72ms
+[2018.03.12-00.29.35:916][982]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerController783B94E24103B976C17E94A9047AFAB6.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-00.29.35:920][982]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-00.29.39:200][336]LogSavePackage: Save=177.15ms
+[2018.03.12-00.29.39:201][336]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap823AA0E146A210015C75CC91F2067710.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.29.39:206][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.29.39:240][336]LogFileHelpers: Saving map 'MainMap' took 0.298
+[2018.03.12-00.30.19:130][535]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (Player)
+[2018.03.12-00.31.47:989][138]LogEditorViewport: Clicking on Actor (LMB): PlayerController_C (PlayerController)
+[2018.03.12-00.31.51:777][408]Cmd: DELETE
+[2018.03.12-00.31.51:777][408]Cmd: ACTOR DELETE
+[2018.03.12-00.31.51:779][408]LogEditorActor: Deleted Actor: PlayerController_C
+[2018.03.12-00.31.51:798][408]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.03.12-00.31.55:319][812]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (Player)
+[2018.03.12-00.32.06:665][986]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.32.06:690][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.32.06:690][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.32.06:690][986]PIE: New page: PIE session: MainMap (12 Mar 2018 10:32:06 pm)
+[2018.03.12-00.32.06:691][986]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.32.06:703][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012416s)
+[2018.03.12-00.32.06:704][986]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.32.06:705][986]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2018.03.12-00.32.06:705][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.014833s)
+[2018.03.12-00.32.06:741][986]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.32.06:749][986]LogInit: FAudioDevice initialized.
+[2018.03.12-00.32.06:779][986]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.32.06:780][986]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.32.06
+[2018.03.12-00.32.06:781][986]LogWorld: Bringing up level for play took: 0.000957
+[2018.03.12-00.32.06:782][986]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.32.06:782][986]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.32.06:782][986]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap -0.28
+[2018.03.12-00.32.06:783][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.32.08:992][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.32.09:028][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.32.11:276][471]LogSavePackage: Save=172.76ms
+[2018.03.12-00.32.11:276][471]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap5A25C17C432CD0A5EBABFFA775B91788.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.32.11:281][471]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.32.11:298][471]LogFileHelpers: Saving map 'MainMap' took 0.281
