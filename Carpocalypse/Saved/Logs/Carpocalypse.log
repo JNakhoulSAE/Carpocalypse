@@ -1310,3 +1310,241 @@ Scale3D: 1.000000 1.000000 1.000000
 [2018.03.12-01.05.32:737][940]LogSavePackage: Save=59.04ms
 [2018.03.12-01.05.32:738][940]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerController16FD86B3446358A562C0F7815B762A77.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
 [2018.03.12-01.05.32:742][940]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-01.59.09:967][239]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{71b86532-093e-4bd1-99ef-57087c3fe2e4} was removed. Shutting down audio device.
+[2018.03.12-01.59.10:047][239]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-01.59.10:509][240]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-02.11.10:635][154]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-02.11.10:666][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-02.11.10:667][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-02.11.10:667][154]PIE: New page: PIE session: MainMap (13 Mar 2018 12:11:10 am)
+[2018.03.12-02.11.10:667][154]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-02.11.10:681][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013000s)
+[2018.03.12-02.11.10:682][154]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-02.11.10:682][154]LogPlayLevel: PIE: World Init took: (0.001564s)
+[2018.03.12-02.11.10:683][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.015498s)
+[2018.03.12-02.11.10:718][154]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-02.11.10:727][154]LogInit: FAudioDevice initialized.
+[2018.03.12-02.11.10:761][154]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-02.11.10:763][154]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-13.11.10
+[2018.03.12-02.11.10:763][154]LogWorld: Bringing up level for play took: 0.001072
+[2018.03.12-02.11.10:764][154]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-02.11.10:764][154]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-02.11.10:765][154]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap -0.288
+[2018.03.12-02.11.10:765][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-02.11.23:373][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-02.11.23:413][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-02.13.52:657][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.12-02.17.26:269][608]LogSavePackage: Save=5.49ms
+[2018.03.12-02.17.26:270][608]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Josh-levelBD3A070A4C546BD0BBEA37883853B145.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/Josh-level.umap'
+[2018.03.12-02.17.26:274][608]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/Josh-level.umap
+[2018.03.12-02.17.26:275][608]LogFileHelpers: Saving map 'Josh-level' took 0.091
+[2018.03.12-02.17.26:278][608]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/Josh-level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-02.17.26:279][608]LightingResults: New page: Lighting Build
+[2018.03.12-02.17.26:279][608]LoadErrors: New page: Loading map: Josh-level.umap
+[2018.03.12-02.17.26:280][608]MapCheck: New page: Map Check
+[2018.03.12-02.17.26:280][608]LightingResults: New page: Lighting Build
+[2018.03.12-02.17.26:303][608]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-02.17.26:304][608]LogAIModule: Creating AISystem for world Josh-level
+[2018.03.12-02.17.26:362][608]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-02.17.26:424][608]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.534ms to complete.
+[2018.03.12-02.17.26:424][608]LogFileHelpers: Loading map 'Josh-level' took 0.149
+[2018.03.12-02.17.49:948][361]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-02.17.50:145][361]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-02.18.20:359][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.12-02.18.20:428][136]LightingResults: New page: Lighting Build
+[2018.03.12-02.18.20:429][136]MapCheck: New page: Map Check
+[2018.03.12-02.18.20:429][136]LightingResults: New page: Lighting Build
+[2018.03.12-02.18.20:462][136]LogAIModule: Creating AISystem for world Untitled
+[2018.03.12-02.18.20:469][136]LoadErrors: New page: New Map
+[2018.03.12-02.18.20:474][136]LogAIModule: Creating AISystem for world Josh-level
+[2018.03.12-02.18.32:708][887]LogMetaData: Removing '/Game/Scenes/TestingScenes/Josh/JoshLevel.SKEL_JoshLevel_C' ref from Metadata '/Game/Scenes/TestingScenes/Josh/MainMap.PackageMetaData'
+[2018.03.12-02.18.32:708][887]LogMetaData: Removing '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' ref from Metadata '/Game/Scenes/TestingScenes/Josh/MainMap.PackageMetaData'
+[2018.03.12-02.18.32:974][887]LogSavePackage: Save=171.25ms
+[2018.03.12-02.18.32:975][887]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/JoshLevel8620BFD54C7D9BB5C126CE87BC98F6D6.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap'
+[2018.03.12-02.18.32:979][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap
+[2018.03.12-02.18.32:985][887]LogFileHelpers: Saving map 'JoshLevel' took 0.259
+[2018.03.12-02.18.34:476][ 26]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-02.18.34:476][ 26]LightingResults: New page: Lighting Build
+[2018.03.12-02.18.34:477][ 26]LoadErrors: New page: Loading map: JoshLevel.umap
+[2018.03.12-02.18.34:477][ 26]MapCheck: New page: Map Check
+[2018.03.12-02.18.34:477][ 26]LightingResults: New page: Lighting Build
+[2018.03.12-02.18.34:524][ 26]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-02.18.34:573][ 26]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-02.18.34:633][ 26]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.348ms to complete.
+[2018.03.12-02.18.34:635][ 26]LogFileHelpers: Loading map 'JoshLevel' took 0.161
+[2018.03.12-02.19.55:907][ 25]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (Player)
+[2018.03.12-02.19.59:186][408]Cmd: DELETE
+[2018.03.12-02.19.59:186][408]Cmd: ACTOR DELETE
+[2018.03.12-02.19.59:187][408]LogEditorActor: Deleted Actor: BP_Player_C
+[2018.03.12-02.19.59:202][408]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.03.12-02.20.00:169][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-02.20.01:320][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-02.20.01:749][695]LogEditorViewport: Clicking on Actor (LMB): BP_Spline_C (BP_Spline)
+[2018.03.12-02.20.02:952][833]Cmd: DELETE
+[2018.03.12-02.20.02:953][833]Cmd: ACTOR DELETE
+[2018.03.12-02.20.02:954][833]LogEditorActor: Deleted Actor: BP_Spline_C
+[2018.03.12-02.20.02:967][833]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.03.12-02.20.11:425][751]LogSavePackage: Save=160.99ms
+[2018.03.12-02.20.11:425][751]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/JoshLevel58F4E8684EFC6196A0A69DBE05981590.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap'
+[2018.03.12-02.20.11:431][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap
+[2018.03.12-02.20.11:449][751]LogFileHelpers: Saving map 'JoshLevel' took 0.266
+[2018.03.12-02.20.11:988][806]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-02.20.12:001][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.20.12:002][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-02.20.12:002][806]PIE: New page: PIE session: JoshLevel (13 Mar 2018 12:20:12 am)
+[2018.03.12-02.20.12:002][806]LogPlayLevel: Creating play world package: /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel
+[2018.03.12-02.20.12:016][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012994s)
+[2018.03.12-02.20.12:017][806]LogAIModule: Creating AISystem for world JoshLevel
+[2018.03.12-02.20.12:017][806]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2018.03.12-02.20.12:018][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel to /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel.JoshLevel (0.015133s)
+[2018.03.12-02.20.12:049][806]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.12-02.20.12:063][806]LogInit: FAudioDevice initialized.
+[2018.03.12-02.20.12:099][806]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-02.20.12:102][806]LogWorld: Bringing World /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel.JoshLevel up for play (max tick rate 0) at 2018.03.12-13.20.12
+[2018.03.12-02.20.12:102][806]LogWorld: Bringing up level for play took: 0.001641
+[2018.03.12-02.20.12:104][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-02.20.12:104][806]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-02.20.12:106][806]PIE: Play in editor start time for /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel 1.052
+[2018.03.12-02.20.12:106][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.20.13:661][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.20.13:697][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.20.17:575][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-02.20.33:716][ 30]LogMaterial: Missing cached shader map for material 3dParticleOpacity_Mat, compiling. 
+[2018.03.12-02.20.33:771][ 30]LogMaterial: Warning: Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.3dParticleOpacity_Mat needed to have new flag set bUsedWithStaticLighting !
+[2018.03.12-02.20.33:772][ 30]LogMaterial: Missing cached shader map for material 3dParticleOpacity_Mat, compiling. 
+[2018.03.12-02.20.35:435][165]Cmd: TRANSACTION UNDO
+[2018.03.12-02.20.35:436][165]LogEditorTransaction: Undo Replace component used material
+[2018.03.12-02.20.42:838][738]LogMaterial: Missing cached shader map for material DefaultDecalMaterial, compiling. 
+[2018.03.12-02.20.57:821][388]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.12-02.20.57:821][388]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.12-02.20.57:822][388]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2018.03.12-02.21.26:813][445]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-02.21.26:825][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.21.26:825][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-02.21.26:826][445]PIE: New page: PIE session: JoshLevel (13 Mar 2018 12:21:26 am)
+[2018.03.12-02.21.26:826][445]LogPlayLevel: Creating play world package: /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel
+[2018.03.12-02.21.26:838][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012220s)
+[2018.03.12-02.21.26:839][445]LogAIModule: Creating AISystem for world JoshLevel
+[2018.03.12-02.21.26:840][445]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2018.03.12-02.21.26:840][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel to /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel.JoshLevel (0.014347s)
+[2018.03.12-02.21.26:873][445]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.12-02.21.26:886][445]LogInit: FAudioDevice initialized.
+[2018.03.12-02.21.26:922][445]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-02.21.26:924][445]LogWorld: Bringing World /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel.JoshLevel up for play (max tick rate 0) at 2018.03.12-13.21.26
+[2018.03.12-02.21.26:924][445]LogWorld: Bringing up level for play took: 0.000849
+[2018.03.12-02.21.26:925][445]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-02.21.26:925][445]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-02.21.26:926][445]PIE: Play in editor start time for /Game/Scenes/TestingScenes/Josh/UEDPIE_0_JoshLevel -0.128
+[2018.03.12-02.21.26:926][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.21.28:733][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.21.28:764][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel' with GeneratedClass '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel_C' with ClassGeneratedBy '/Game/Scenes/TestingScenes/Josh/JoshLevel.JoshLevel:PersistentLevel.JoshLevel'
+[2018.03.12-02.23.55:079][167]LogSavePackage: Save=175.95ms
+[2018.03.12-02.23.55:079][167]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/JoshLevelF20CD812491A7372DA144C8D815ADFF7.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap'
+[2018.03.12-02.23.55:084][167]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap
+[2018.03.12-02.23.55:103][167]LogFileHelpers: Saving map 'JoshLevel' took 0.281
+[2018.03.12-02.25.45:238][442]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{be16e6e4-7f18-4909-a5cd-c12968b202e5} was removed. Shutting down audio device.
+[2018.03.12-02.25.45:238][442]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-02.26.16:048][  7]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.12-02.31.07:971][302]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.33.54:570][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/TestingScenes/Josh/JoshLevel' took 0.019
+[2018.03.12-02.33.54:575][246]LogExec: Warning: Missing filename
+[2018.03.12-02.33.54:576][246]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scenes/TestingScenes/Josh/BP_GridPlacement] ([1] browsable assets)...
+[2018.03.12-02.33.54:577][246]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scenes/TestingScenes/Josh/BP_GridPlacement]
+[2018.03.12-02.33.54:589][246]LogSavePackage: Save=9.93ms
+[2018.03.12-02.33.54:589][246]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement_Auto38C5632894D95C532D5424DB6D6026DB5.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/Scenes/TestingScenes/Josh/BP_GridPlacement_Auto3.uasset'
+[2018.03.12-02.33.54:591][246]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/Scenes/TestingScenes/Josh/BP_GridPlacement_Auto3.uasset
+[2018.03.12-02.33.54:591][246]LogFileHelpers: Auto-saving content packages took 0.019
+[2018.03.12-02.39.26:512][ 17]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Divide_FloatFloat' [The specified module could not be found.]
+[2018.03.12-02.41.34:595][381]LogEditorTransaction: Undo Straighten Connection(s)
+[2018.03.12-02.41.34:834][405]LogEditorTransaction: Undo Straighten Connection(s)
+[2018.03.12-02.41.35:268][454]LogEditorTransaction: Undo Create Pin Link
+[2018.03.12-02.41.35:635][498]LogEditorTransaction: Undo Straighten Connection(s)
+[2018.03.12-02.41.36:019][541]LogEditorTransaction: Undo Move Node
+[2018.03.12-02.41.36:372][580]LogEditorTransaction: Undo Move Node
+[2018.03.12-02.41.36:769][625]LogEditorTransaction: Undo Create Reroute Node
+[2018.03.12-02.41.37:190][672]LogEditorTransaction: Undo Move Nodes
+[2018.03.12-02.41.38:321][805]LogEditorTransaction: Redo Move Nodes
+[2018.03.12-02.41.41:694][207]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.41.50:551][168]LogSavePackage: Save=163.84ms
+[2018.03.12-02.41.50:552][168]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/JoshLevel67AE3F7F4288671D103DC0B1C56989D9.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap'
+[2018.03.12-02.41.50:557][168]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap
+[2018.03.12-02.41.50:595][168]LogFileHelpers: Saving map 'JoshLevel' took 0.297
+[2018.03.12-02.41.50:619][168]LogSavePackage: Save=16.64ms
+[2018.03.12-02.41.50:620][168]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement4757CF6B416CC5F58A1763B01947CD62.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.41.50:625][168]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.42.22:616][527]LogEditorTransaction: Undo Add Node
+[2018.03.12-02.43.15:463][392]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-02.43.16:012][406]LogSavePackage: Save=62.10ms
+[2018.03.12-02.43.16:012][406]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerController599A5B8543F69118DA9EC38FD9CBD46C.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-02.43.16:017][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-02.43.37:297][930]LogSavePackage: Save=7.14ms
+[2018.03.12-02.43.37:297][930]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement9A5AB2714723980C744EABA1FB247887.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.43.37:302][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.43.38:992][132]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.47.54:035][531]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.52.32:384][105]LogClass: Warning: Type mismatch in GridSize of SKEL_BP_GridPlacement_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2018.03.12-02.53.10:313][586]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.53.24:874][292]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.54.17:088][460]LogSavePackage: Save=18.17ms
+[2018.03.12-02.54.17:088][460]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacementBCBC7DC0446486FFE3475280CE2F5F55.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.54.17:093][460]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.55.23:623][359]LogSavePackage: Save=15.98ms
+[2018.03.12-02.55.23:623][359]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement35199D534F0659565981F19E5DE094D4.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.55.23:629][359]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.55.35:964][829]LogSavePackage: Save=16.77ms
+[2018.03.12-02.55.35:964][829]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement5C362F92432ADB665FAC5095D5B9DFE4.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.55.35:969][829]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.55.43:626][747]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.55.43:634][747]LogBlueprint: Error: [Compiler BP_GridPlacement] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2018.03.12-02.55.43:738][747]LogBlueprint: Warning: [Compiler BP_GridPlacement] [1103.77] Compile of BP_GridPlacement failed. 1 Fatal Issue(s) 0 Warning(s) [in 111 ms] (/Game/Scenes/TestingScenes/Josh/BP_GridPlacement.BP_GridPlacement)
+[2018.03.12-02.57.33:628][874]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-02.57.36:465][170]LogSavePackage: Save=19.63ms
+[2018.03.12-02.57.36:465][170]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement25704D1847BF439784D9E9B8401D3A95.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.57.36:469][170]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.59.10:564][ 71]LogSavePackage: Save=18.11ms
+[2018.03.12-02.59.10:564][ 71]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement112B19584BB04311B76C3DA89F593151.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.59.10:569][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.59.32:705][712]LogSavePackage: Save=17.76ms
+[2018.03.12-02.59.32:705][712]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacementF88775EA4759C8068F6993A4FBD93D85.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-02.59.32:709][712]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-02.59.34:806][963]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-03.04.23:724][253]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-03.07.03:900][197]LogSavePackage: Save=24.86ms
+[2018.03.12-03.07.03:901][197]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacementE0468CB0449CAD8A8EE159A22064EF9B.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-03.07.03:905][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
+[2018.03.12-03.07.05:953][442]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-03.10.02:850][949]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.12-03.20.36:498][726]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-03.20.36:535][726]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-03.20.36:535][726]LightingResults: New page: Lighting Build
+[2018.03.12-03.20.36:536][726]LoadErrors: New page: Loading map: MainMap.umap
+[2018.03.12-03.20.36:566][726]MapCheck: New page: Map Check
+[2018.03.12-03.20.36:566][726]LightingResults: New page: Lighting Build
+[2018.03.12-03.20.36:601][726]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-03.20.36:634][726]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-03.20.36:699][726]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.482ms to complete.
+[2018.03.12-03.20.36:699][726]LogFileHelpers: Loading map 'MainMap' took 0.166
+[2018.03.12-03.20.42:269][386]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (Player)
+[2018.03.12-03.22.24:844][446]LogAIModule: Creating AISystem for world JoshLevel
+[2018.03.12-03.22.24:880][446]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/JoshLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.12-03.22.24:881][446]LightingResults: New page: Lighting Build
+[2018.03.12-03.22.24:881][446]LoadErrors: New page: Loading map: JoshLevel.umap
+[2018.03.12-03.22.24:882][446]MapCheck: New page: Map Check
+[2018.03.12-03.22.24:882][446]LightingResults: New page: Lighting Build
+[2018.03.12-03.22.24:905][446]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.12-03.22.24:940][446]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.12-03.22.24:997][446]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.063ms to complete.
+[2018.03.12-03.22.24:998][446]LogFileHelpers: Loading map 'JoshLevel' took 0.118
+[2018.03.12-03.35.38:727][120]BlueprintLog: New page: Compile BP_GridPlacement
+[2018.03.12-03.35.41:305][385]LogSavePackage: Save=24.60ms
+[2018.03.12-03.35.41:305][385]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_GridPlacement109FE74C450740768D4450BF8C7FB798.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset'
+[2018.03.12-03.35.41:310][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/TestingScenes/Josh/BP_GridPlacement.uasset
