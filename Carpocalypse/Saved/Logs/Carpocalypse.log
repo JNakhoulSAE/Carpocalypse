@@ -1,4 +1,4 @@
-﻿Log file open, 03/12/18 10:08:13
+﻿Log file open, 03/12/18 10:50:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Carpocalypse
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1343761604) SRandInit(-1343761603).
+LogInit: Display: RandInit(242255249) SRandInit(242255249).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.158393
+LogStats: Stats thread started at 0.168309
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Binaries/Win64/UE4Editor-Carpocalypse.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -196,335 +196,704 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.11-23.08.15:431][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.11-23.08.15:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.11-23.08.15:451][  0]LogInit: Computer: SYD-R102-PC12
-[2018.03.11-23.08.15:451][  0]LogInit: User: jman
-[2018.03.11-23.08.15:451][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.11-23.08.15:451][  0]LogInit: High frequency timer resolution =3.328122 MHz
-[2018.03.11-23.08.15:452][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.03.11-23.08.15:452][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.11-23.08.15:452][  0]LogMemory: Process Physical Memory: 276.61 MB used, 276.61 MB peak
-[2018.03.11-23.08.15:452][  0]LogMemory: Process Virtual Memory: 274.07 MB used, 274.07 MB peak
-[2018.03.11-23.08.15:452][  0]LogMemory: Physical Memory: 9310.09 MB used,  23373.07 MB free, 32683.16 MB total
-[2018.03.11-23.08.15:452][  0]LogMemory: Virtual Memory: 732.77 MB used,  23373.07 MB free, 134217728.00 MB total
-[2018.03.11-23.08.15:616][  0]LogInit: Using OS detected language (en-US).
-[2018.03.11-23.08.15:616][  0]LogInit: Using OS detected locale (en-AU).
-[2018.03.11-23.08.15:621][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.11-23.08.15:960][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.11-23.08.16:346][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.11-23.08.16:380][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2018.03.11-23.08.16:380][  0]LogD3D11RHI:       4060/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.11-23.08.16:382][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.11-23.08.16:382][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.11-23.08.16:382][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.11-23.08.16:387][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.11-23.08.16:387][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.11-23.08.16:387][  0]LogWindows: EnumDisplayDevices:
-[2018.03.11-23.08.16:387][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2018.03.11-23.08.16:387][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.03.11-23.08.16:388][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.03.11-23.08.16:388][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2018.03.11-23.08.16:388][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.11-23.08.16:388][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2018.03.11-23.08.16:388][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.11-23.08.16:388][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.11-23.08.16:388][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
-[2018.03.11-23.08.16:409][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.11-23.08.16:420][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.11-23.08.16:463][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Intermediate/Shaders/WorkingDirectory/7220/).
-[2018.03.11-23.08.16:463][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jman/AppData/Local/Temp/UnrealShaderWorkingDir/2B120C49445F3C0356D6BAA903AC87B9/'.
-[2018.03.11-23.08.16:463][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.11-23.08.17:462][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.11-23.08.17:563][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.11-23.08.17:657][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.11-23.08.17:718][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.11-23.08.17:784][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.11-23.08.17:856][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.11-23.08.17:921][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.11-23.08.17:984][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.11-23.08.18:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.11-23.08.18:098][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.11-23.08.18:156][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.11-23.08.18:221][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.11-23.08.18:282][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.11-23.08.18:344][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.11-23.08.18:478][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.11-23.08.18:478][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.11-23.08.18:536][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.11-23.08.18:578][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.11-23.08.18:669][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.11-23.08.18:697][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.11-23.08.18:749][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.11-23.08.18:813][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.11-23.08.18:874][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.11-23.08.18:951][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.11-23.08.18:951][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.11-23.08.19:556][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.11-23.08.19:615][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.11-23.08.19:616][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.11-23.08.19:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.11-23.08.19:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.11-23.08.19:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.11-23.08.19:616][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.11-23.08.19:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.11-23.08.19:648][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.11-23.08.19:657][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.11-23.08.19:657][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.11-23.08.19:658][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.11-23.08.19:659][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.11-23.08.20:066][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.11-23.08.20:513][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.11-23.08.20:583][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.11-23.08.20:583][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.11-23.08.20:583][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.11-23.08.20:583][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.11-23.08.20:583][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.11-23.08.20:624][  0]LogNetVersion: Carpocalypse , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 507098726)
-[2018.03.11-23.08.20:796][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2018.03.11-23.08.21:268][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068021 seconds
-[2018.03.11-23.08.21:272][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.11-23.08.21:272][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.03.11-23.08.21:272][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.11-23.08.21:333][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.11-23.08.24:375][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.11-23.08.24:424][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.11-23.08.25:450][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.11-23.08.25:965][  0]SourceControl: Source control is disabled
-[2018.03.11-23.08.25:965][  0]SourceControl: Source control is disabled
-[2018.03.11-23.08.26:046][  0]SourceControl: Source control is disabled
-[2018.03.11-23.08.26:110][  0]SourceControl: Source control is disabled
-[2018.03.11-23.08.27:060][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.11-23.08.27:359][  0]LogOcInput: OculusInput pre-init called
-[2018.03.11-23.08.27:647][  0]LogEngine: Initializing Engine...
-[2018.03.11-23.08.27:649][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.11-23.08.27:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.11-23.08.27:837][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.11-23.08.27:983][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.11-23.08.27:998][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.11-23.08.28:015][  0]LogInit: FAudioDevice initialized.
-[2018.03.11-23.08.28:097][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/jman/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.11-23.08.28:104][  0]LogInit: Texture streaming: Enabled
-[2018.03.11-23.08.28:246][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.11-23.08.28:445][  0]LogInit: Transaction tracking system initialized
-[2018.03.11-23.08.28:825][  0]BlueprintLog: New page: Editor Load
-[2018.03.11-23.08.29:847][  0]LocalizationService: Localization service is disabled
-[2018.03.11-23.08.30:890][  0]LogConsoleResponse: Display: 
-[2018.03.11-23.08.31:068][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.11-23.08.31:068][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.11-23.08.31:068][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.11-23.08.31:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/' took 0.01s
-[2018.03.11-23.08.32:682][  0]SourceControl: Source control is disabled
-[2018.03.11-23.08.32:682][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.11-23.08.32:682][  0]LightingResults: New page: Lighting Build
-[2018.03.11-23.08.32:739][  0]MapCheck: New page: Map Check
-[2018.03.11-23.08.32:739][  0]LightingResults: New page: Lighting Build
-[2018.03.11-23.08.32:947][  0]LogAIModule: Creating AISystem for world MainMap
-[2018.03.11-23.08.32:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.11-23.08.32:961][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.11-23.08.33:024][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.092ms to complete.
-[2018.03.11-23.08.33:024][  0]LogFileHelpers: Loading map 'MainMap' took 0.343
-[2018.03.11-23.08.33:092][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.11-23.08.33:093][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.11-23.08.33:186][  0]LogCollectionManager: Loaded 0 collections in 0.001286 seconds
-[2018.03.11-23.08.33:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Collections/' took 0.01s
-[2018.03.11-23.08.33:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Developers/jman/Collections/' took 0.01s
-[2018.03.11-23.08.33:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Collections/' took 0.01s
-[2018.03.11-23.08.33:268][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.11-23.08.33:275][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2369 classes and 522 folders.
-[2018.03.11-23.08.33:349][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.11-23.08.33:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.03.11-23.08.33:431][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.11-23.08.33:473][  0]LogSlate: Took 0.000726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.11-23.08.33:476][  0]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.11-23.08.33:481][  0]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.11-23.08.33:566][  0]LogRenderer: Reallocating scene render targets to support 1616x812 Format 10 NumSamples 1 (Frame:1).
-[2018.03.11-23.08.33:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.11-23.08.33:782][  0]LogLoad: (Engine Initialization) Total time: 21.57 seconds
-[2018.03.11-23.08.33:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.11-23.08.33:783][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.11-23.08.33:783][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.11-23.08.33:812][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.11-23.08.33:864][  1]LogAssetRegistry: Asset discovery search completed in 13.0887 seconds
-[2018.03.11-23.08.33:865][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.11-23.08.33:865][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
-[2018.03.11-23.13.37:325][928]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.11-23.13.37:341][928]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.11-23.13.37:341][928]LightingResults: New page: Lighting Build
-[2018.03.11-23.13.37:342][928]LoadErrors: New page: Loading map: MainMap.umap
-[2018.03.11-23.13.37:343][928]MapCheck: New page: Map Check
-[2018.03.11-23.13.37:343][928]LightingResults: New page: Lighting Build
-[2018.03.11-23.13.37:373][928]LogAIModule: Creating AISystem for world MainMap
-[2018.03.11-23.13.37:377][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.11-23.13.37:422][928]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.11-23.13.37:470][928]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.36ms to complete.
-[2018.03.11-23.13.37:471][928]LogFileHelpers: Loading map 'MainMap' took 0.131
-[2018.03.11-23.14.16:606][613]Cmd: MAP LOAD FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.11-23.14.16:607][613]LightingResults: New page: Lighting Build
-[2018.03.11-23.14.16:607][613]LoadErrors: New page: Loading map: MainMap.umap
-[2018.03.11-23.14.16:608][613]MapCheck: New page: Map Check
-[2018.03.11-23.14.16:608][613]LightingResults: New page: Lighting Build
-[2018.03.11-23.14.16:637][613]LogAIModule: Creating AISystem for world MainMap
-[2018.03.11-23.14.16:641][613]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.11-23.14.16:668][613]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.11-23.14.16:716][613]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.568ms to complete.
-[2018.03.11-23.14.16:717][613]LogFileHelpers: Loading map 'MainMap' took 0.112
-[2018.03.11-23.14.28:149][953]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.11-23.15.01:692][254]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2018.03.11-23.15.02:220][254]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.11-23.15.02:341][254]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:1).
-[2018.03.11-23.15.04:441][490]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.11-23.15.23:436][703]BlueprintLog: New page: Compile Spline
-[2018.03.11-23.20.36:509][812]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.11-23.23.13:626][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset" SILENT=true
-[2018.03.11-23.23.13:638][ 18]LogSavePackage: Save=9.87ms
-[2018.03.11-23.23.13:638][ 18]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Spline2D1954294AAB2F63D764BFAF0139925F.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset'
-[2018.03.11-23.23.13:642][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/Spline.uasset
-[2018.03.11-23.23.13:645][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.23.13:659][ 18]LogSavePackage: Save=12.37ms
-[2018.03.11-23.23.13:660][ 18]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController6D0069C3495B4DEC7178398F5E9AB6A5.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.23.13:663][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.SKEL_BP_Spline_C' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline_C' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:011][ 91]LogMetaData: Removing '/Game/BluePrints/BP_Spline.BP_Spline:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BluePrints/Spline.PackageMetaData'
-[2018.03.11-23.23.23:027][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.23.23:038][ 91]LogSavePackage: Save=9.02ms
-[2018.03.11-23.23.23:038][ 91]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineA041DDBE4B554EFA830071B048D36A0B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.23.23:043][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.23.23:210][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.23.23:227][ 91]LogSavePackage: Save=11.70ms
-[2018.03.11-23.23.23:227][ 91]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerF581CA0A4469FCA0D9D6209D8346FAEF.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.23.23:231][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.23.24:252][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.23.24:265][195]LogSavePackage: Save=8.27ms
-[2018.03.11-23.23.24:265][195]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline4D47062E46B5BC21B38263AF4472E5E1.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.23.24:268][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.23.26:982][517]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.23.55:318][883]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.28.10:242][418]LogSlate: Took 0.000730 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.11-23.28.19:339][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MainMap' took 0.035
-[2018.03.11-23.28.19:341][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PlayerController] ([1] browsable assets)...
-[2018.03.11-23.28.19:341][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerController]
-[2018.03.11-23.28.19:364][445]LogSavePackage: Save=17.90ms
-[2018.03.11-23.28.19:365][445]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController_Auto17DB7220C4CC09FC94DA415AEB9614E95.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset'
-[2018.03.11-23.28.19:367][445]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/Autosaves/Game/BluePrints/PlayerController_Auto1.uasset
-[2018.03.11-23.28.19:367][445]LogFileHelpers: Auto-saving content packages took 0.027
-[2018.03.11-23.29.14:590][214]LogSlate: Took 0.001708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.03.11-23.32.34:093][ 54]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.11-23.33.41:891][  2]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.34.13:472][697]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.11-23.34.32:036][914]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.34.38:380][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.34.38:400][632]LogSavePackage: Save=15.16ms
-[2018.03.11-23.34.38:400][632]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController0F21F0074C592D56E6349780BB2D1DC8.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.34.38:404][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.34.38:408][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.34.38:420][632]LogSavePackage: Save=7.70ms
-[2018.03.11-23.34.38:420][632]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline371F0EE747BFC43748D7DD8645DAC253.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.34.38:424][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.35.39:137][814]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.36.23:297][ 46]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.36.43:788][434]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.36.48:140][922]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.37.24:942][176]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.37.24:949][176]LogBlueprint: Error: [Compiler PlayerController] This blueprint (self) is not a BP_Spline_C, therefore ' Target ' must have a connection.
-[2018.03.11-23.37.24:949][176]LogBlueprint: Error: [Compiler PlayerController] Variable node  Set DD  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2018.03.11-23.37.25:041][176]LogBlueprint: Warning: [Compiler PlayerController] [1752.84] Compile of PlayerController failed. 2 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/BluePrints/PlayerController.PlayerController)
-[2018.03.11-23.37.31:766][977]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.38.39:482][584]LogEditorTransaction: Undo Delete current selection
-[2018.03.11-23.38.39:766][617]LogEditorTransaction: Undo Create Pin Link
-[2018.03.11-23.38.40:216][671]LogEditorTransaction: Undo Delete current selection
-[2018.03.11-23.38.40:663][724]LogEditorTransaction: Undo Create Pin Link
-[2018.03.11-23.38.40:946][758]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.41:414][814]LogEditorTransaction: Undo Add Node
-[2018.03.11-23.38.41:687][846]LogEditorTransaction: Undo Add Node
-[2018.03.11-23.38.41:930][875]LogEditorTransaction: Undo Delete current selection
-[2018.03.11-23.38.42:175][904]LogEditorTransaction: Undo Create Pin Link
-[2018.03.11-23.38.42:418][933]LogEditorTransaction: Undo Add Node
-[2018.03.11-23.38.42:671][963]LogEditorTransaction: Undo Rename Variable
-[2018.03.11-23.38.43:286][ 35]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.43:574][ 67]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.43:837][ 97]LogEditorTransaction: Undo Comment Bubble Visibility
-[2018.03.11-23.38.44:094][125]LogEditorTransaction: Undo Create Pin Link
-[2018.03.11-23.38.44:355][155]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.44:609][184]LogEditorTransaction: Undo Move Nodes
-[2018.03.11-23.38.44:871][214]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.45:157][247]LogEditorTransaction: Undo Promote To Variable
-[2018.03.11-23.38.45:452][281]LogEditorTransaction: Undo Add Component Nodes
-[2018.03.11-23.38.45:812][323]LogEditorTransaction: Undo Delete current selection
-[2018.03.11-23.38.46:157][364]LogEditorTransaction: Undo Create Pin Link
-[2018.03.11-23.38.46:482][403]LogEditorTransaction: Undo Move Node
-[2018.03.11-23.38.46:718][430]LogEditorTransaction: Undo Add Node
-[2018.03.11-23.38.46:922][454]LogEditorTransaction: Undo Make New Scene Root
-[2018.03.11-23.38.47:171][483]LogEditorTransaction: Undo Delete current selection
-[2018.03.11-23.38.49:159][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.38.49:191][715]LogSavePackage: Save=26.12ms
-[2018.03.11-23.38.49:191][715]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerFD902BAA499C132534D15D8E08E08BD7.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.38.49:206][715]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.39.56:058][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.39.56:078][839]LogSavePackage: Save=15.26ms
-[2018.03.11-23.39.56:078][839]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController50B1BC3B464E0286E733E7B01789503B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.39.56:082][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.40.21:231][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.40.21:244][833]LogSavePackage: Save=8.53ms
-[2018.03.11-23.40.21:244][833]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineCC70279B4B5E91735FD1B9A231B3EBCC.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.40.21:249][833]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.40.21:801][899]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.40.38:761][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.40.38:772][897]LogSavePackage: Save=7.86ms
-[2018.03.11-23.40.38:772][897]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineFD41C3FC41A8F270D35D29828CE13489.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.40.38:777][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.40.45:079][650]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.40.46:369][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.40.46:380][783]LogSavePackage: Save=7.55ms
-[2018.03.11-23.40.46:380][783]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineDA8F4A2D4A28E20A47FF4D9FE9FC1367.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.40.46:382][783]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.40.57:608][125]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.11-23.41.09:173][505]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.42.19:041][773]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.42.35:492][676]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.43.05:138][158]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.11-23.43.29:356][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.43.29:365][678]LogSavePackage: Save=7.07ms
-[2018.03.11-23.43.29:365][678]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline85DB36DA4B54132535E74BB773E0E97C.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.43.29:370][678]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.43.30:315][791]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.43.30:949][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.43.30:960][846]LogSavePackage: Save=7.26ms
-[2018.03.11-23.43.30:960][846]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_Spline216BC7A44BA7458129E06297340739D9.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.43.30:962][846]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.43.49:433][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.43.49:441][885]LogSavePackage: Save=6.77ms
-[2018.03.11-23.43.49:441][885]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController98724C804C9E02C55B98129367D076B4.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.43.49:445][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.44.12:505][584]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.03.11-23.45.39:340][894]LogEditorTransaction: Undo Rename Variable
-[2018.03.11-23.45.41:746][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.45.41:767][174]LogSavePackage: Save=14.36ms
-[2018.03.11-23.45.41:767][174]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController11F7C8A041ADB16DEF1DCF8976DD1283.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.45.41:771][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.45.43:599][391]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.47.06:671][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.47.06:690][177]LogSavePackage: Save=15.32ms
-[2018.03.11-23.47.06:690][177]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerE090D2B542CE781CF4E28983CA934D3C.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.47.06:693][177]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.48.01:941][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.48.01:961][671]LogSavePackage: Save=16.79ms
-[2018.03.11-23.48.01:961][671]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerController72B83A3C4745EE6D74C00390ADF969F5.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.48.01:967][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
-[2018.03.11-23.48.03:575][863]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.48.03:582][863]LogBlueprint: Warning: [Compiler PlayerController] Can't parse default value 'None' for  Distance Along Spline . Property: DistanceAlongSpline.
-[2018.03.11-23.48.03:735][863]LogBlueprint: Warning: [Compiler PlayerController] [2391.54] Compile of PlayerController successful, but with 1 Warning(s) [in 160 ms] (/Game/BluePrints/PlayerController.PlayerController)
-[2018.03.11-23.48.26:633][306]BlueprintLog: New page: Compile PlayerController
-[2018.03.11-23.48.27:913][431]BlueprintLog: New page: Compile BP_Spline
-[2018.03.11-23.48.28:360][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Spline" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset" SILENT=true
-[2018.03.11-23.48.28:373][452]LogSavePackage: Save=7.67ms
-[2018.03.11-23.48.28:373][452]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/BP_SplineF141EBD74D67FFC11CAE9BB90D091CC1.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset'
-[2018.03.11-23.48.28:375][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/BP_Spline.uasset
-[2018.03.11-23.48.29:233][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PlayerController" FILE="../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset" SILENT=true
-[2018.03.11-23.48.29:254][552]LogSavePackage: Save=17.94ms
-[2018.03.11-23.48.29:254][552]LogSavePackage: Moving '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Saved/PlayerControllerF5A4D8C4413C85F0445FB1BE0993970B.tmp' to '../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
-[2018.03.11-23.48.29:256][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jman/Documents/GitHub/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.11-23.50.43:653][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-23.50.43:653][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.11-23.50.43:711][  0]LogInit: Computer: SYD-R102-PC13
+[2018.03.11-23.50.43:712][  0]LogInit: User: jnakhoul
+[2018.03.11-23.50.43:712][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.11-23.50.43:712][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.03.11-23.50.43:713][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.11-23.50.43:713][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.11-23.50.43:713][  0]LogMemory: Process Physical Memory: 276.82 MB used, 276.82 MB peak
+[2018.03.11-23.50.43:713][  0]LogMemory: Process Virtual Memory: 274.15 MB used, 274.15 MB peak
+[2018.03.11-23.50.43:713][  0]LogMemory: Physical Memory: 8835.32 MB used,  23847.82 MB free, 32683.15 MB total
+[2018.03.11-23.50.43:713][  0]LogMemory: Virtual Memory: 728.73 MB used,  23847.82 MB free, 134217728.00 MB total
+[2018.03.11-23.50.43:907][  0]LogInit: Using OS detected language (en-US).
+[2018.03.11-23.50.43:907][  0]LogInit: Using OS detected locale (en-AU).
+[2018.03.11-23.50.43:913][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.11-23.50.44:286][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.11-23.50.44:713][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.11-23.50.44:755][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.03.11-23.50.44:755][  0]LogD3D11RHI:       4060/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.11-23.50.44:757][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.11-23.50.44:757][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.11-23.50.44:757][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.11-23.50.44:763][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.11-23.50.44:763][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.11-23.50.44:763][  0]LogWindows: EnumDisplayDevices:
+[2018.03.11-23.50.44:764][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.03.11-23.50.44:764][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.11-23.50.44:764][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.11-23.50.44:764][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.03.11-23.50.44:764][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.11-23.50.44:764][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.03.11-23.50.44:764][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.11-23.50.44:764][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.11-23.50.44:764][  0]LogRHI: Texture pool is 2842 MB (70% of 4060 MB)
+[2018.03.11-23.50.44:788][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.11-23.50.44:799][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.11-23.50.44:841][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Intermediate/Shaders/WorkingDirectory/1664/).
+[2018.03.11-23.50.44:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jnakhoul/AppData/Local/Temp/UnrealShaderWorkingDir/C2A6D4BB4F12DD13FF04738DFD3E344A/'.
+[2018.03.11-23.50.44:842][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.11-23.50.45:842][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.11-23.50.45:903][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.11-23.50.45:962][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.11-23.50.46:023][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.11-23.50.46:087][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.11-23.50.46:170][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.11-23.50.46:230][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.11-23.50.46:292][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.11-23.50.46:379][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.11-23.50.46:449][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.11-23.50.46:508][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.11-23.50.46:566][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.11-23.50.46:642][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.11-23.50.46:701][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.11-23.50.46:819][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.11-23.50.46:819][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.11-23.50.46:877][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.11-23.50.46:924][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.11-23.50.47:026][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.11-23.50.47:071][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.11-23.50.47:146][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.11-23.50.47:203][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.11-23.50.47:261][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.11-23.50.47:317][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.11-23.50.47:317][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.11-23.50.47:859][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/jnakhoul/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jnakhoul/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.11-23.50.47:912][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.11-23.50.47:926][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.11-23.50.47:939][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jnakhoul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.11-23.50.47:948][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.11-23.50.47:948][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.11-23.50.47:949][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-23.50.47:949][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-23.50.48:366][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-23.50.48:784][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.11-23.50.48:832][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.11-23.50.48:832][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.11-23.50.48:832][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.11-23.50.48:832][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.11-23.50.48:832][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.11-23.50.48:974][  0]LogNetVersion: Carpocalypse , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 507098726)
+[2018.03.11-23.50.49:169][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.03.11-23.50.49:670][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.063780 seconds
+[2018.03.11-23.50.49:675][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.11-23.50.49:675][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.11-23.50.49:675][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.11-23.50.49:737][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.11-23.50.53:125][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.11-23.50.53:179][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.11-23.50.54:131][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.11-23.50.54:664][  0]SourceControl: Source control is disabled
+[2018.03.11-23.50.54:664][  0]SourceControl: Source control is disabled
+[2018.03.11-23.50.54:734][  0]SourceControl: Source control is disabled
+[2018.03.11-23.50.54:805][  0]SourceControl: Source control is disabled
+[2018.03.11-23.50.55:934][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.11-23.50.56:326][  0]LogOcInput: OculusInput pre-init called
+[2018.03.11-23.50.56:669][  0]LogEngine: Initializing Engine...
+[2018.03.11-23.50.56:671][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.11-23.50.56:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.11-23.50.56:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.11-23.50.57:024][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.11-23.50.57:038][  0]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-23.50.57:066][  0]LogInit: FAudioDevice initialized.
+[2018.03.11-23.50.57:142][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/jnakhoul/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-23.50.57:149][  0]LogInit: Texture streaming: Enabled
+[2018.03.11-23.50.57:278][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.11-23.50.57:432][  0]LogInit: Transaction tracking system initialized
+[2018.03.11-23.50.57:835][  0]BlueprintLog: New page: Editor Load
+[2018.03.11-23.50.58:914][  0]LocalizationService: Localization service is disabled
+[2018.03.11-23.50.59:962][  0]LogConsoleResponse: Display: 
+[2018.03.11-23.51.00:144][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.11-23.51.00:144][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.11-23.51.00:144][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.11-23.51.01:155][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/' took 0.01s
+[2018.03.11-23.51.01:626][  0]SourceControl: Source control is disabled
+[2018.03.11-23.51.01:626][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-23.51.01:626][  0]LightingResults: New page: Lighting Build
+[2018.03.11-23.51.01:676][  0]MapCheck: New page: Map Check
+[2018.03.11-23.51.01:676][  0]LightingResults: New page: Lighting Build
+[2018.03.11-23.51.01:761][  0]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.51.01:761][  0]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap.
+[2018.03.11-23.51.01:761][  0]LoadErrors: Error: /Game/Scenes/MainMap : Can't find file for asset. /Game/Scenes/MainMap_BuiltData
+[2018.03.11-23.51.01:766][  0]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.51.01:766][  0]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap.
+[2018.03.11-23.51.01:766][  0]LoadErrors: Error: /Game/Scenes/MainMap : Can't find file for asset. /Game/Scenes/MainMap_BuiltData
+[2018.03.11-23.51.01:767][  0]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.51.01:767][  0]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.51.01:767][  0]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.51.01:767][  0]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.51.01:775][  0]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.51.01:775][  0]LoadErrors: Failed to load /Game/Scenes/MainMap_BuiltData.MainMap_BuiltData Referenced by PersistentLevel
+[2018.03.11-23.51.01:776][  0]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.51.01:776][  0]LoadErrors: Failed to load /Game/Scenes/MainMap_BuiltData.MainMap_BuiltData Referenced by PersistentLevel
+[2018.03.11-23.51.01:859][  0]LogAIModule: Creating AISystem for world MainMap
+[2018.03.11-23.51.01:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-23.51.01:875][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-23.51.01:942][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.692ms to complete.
+[2018.03.11-23.51.01:942][  0]LogFileHelpers: Loading map 'MainMap' took 0.317
+[2018.03.11-23.51.02:086][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.11-23.51.02:086][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.11-23.51.02:197][  0]LogCollectionManager: Loaded 0 collections in 0.001243 seconds
+[2018.03.11-23.51.02:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Collections/' took 0.01s
+[2018.03.11-23.51.02:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Developers/jnakhoul/Collections/' took 0.01s
+[2018.03.11-23.51.02:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Collections/' took 0.01s
+[2018.03.11-23.51.02:308][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.11-23.51.02:317][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2366 classes and 521 folders.
+[2018.03.11-23.51.02:395][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.11-23.51.02:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.11-23.51.02:505][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.11-23.51.02:549][  0]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-23.51.02:554][  0]LogSlate: Took 0.000742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-23.51.02:558][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-23.51.02:560][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.11-23.51.02:675][  0]LogRenderer: Reallocating scene render targets to support 1752x872 Format 10 NumSamples 1 (Frame:1).
+[2018.03.11-23.51.02:866][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.11-23.51.02:867][  0]LogLoad: (Engine Initialization) Total time: 22.88 seconds
+[2018.03.11-23.51.02:867][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.11-23.51.02:867][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.11-23.51.02:867][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.11-23.51.02:894][  0]LogAssetRegistry: Asset discovery search completed in 13.7478 seconds
+[2018.03.11-23.51.02:896][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.11-23.51.02:896][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000140 seconds (updated 0 objects)
+[2018.03.11-23.51.02:898][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.11-23.51.03:891][105]LogSlate: Took 0.000467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-23.51.16:159][564]MapCheck: New page: Map Check
+[2018.03.11-23.51.16:178][564]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.11-23.51.16:178][564]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.11-23.51.16:255][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.11-23.51.16:261][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.03.11-23.51.16:266][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.11-23.51.16:271][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlueMaterial, compiling. 
+[2018.03.11-23.51.16:277][564]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.11-23.51.16:758][564]TextureStreamingBuild: Display: Compiling optional shaders took 0.508 seconds.
+[2018.03.11-23.51.16:761][564]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.03.11-23.51.16:764][564]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2018.03.11-23.51.16:772][564]LightingResults: New page: Lighting Build - 12 Mar 2018 9:51:16 pm
+[2018.03.11-23.51.16:803][564]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.11-23.51.16:857][564]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.11-23.51.16:868][564]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.11-23.51.17:391][564]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.11-23.51.17:391][564]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1664
+[2018.03.11-23.51.20:840][564]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.11-23.51.20:840][564]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.11-23.51.20:841][564]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.11-23.51.20:841][564]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.11-23.51.20:841][564]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.11-23.51.20:980][564]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.11-23.51.20:980][564]MapCheck: New page: MainMap - 12 Mar 2018 9:51:20 pm
+[2018.03.11-23.51.20:981][564]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.03.11-23.51.21:038][564]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 57.774ms to complete.
+[2018.03.11-23.51.21:061][564]LogEditorBuildUtils: Build time 0:04
+[2018.03.11-23.51.24:159][795]Job is a success!
+[2018.03.11-23.51.24:185][796]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-23.51.24:217][796]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
+[2018.03.11-23.51.24:218][796]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.11-23.51.24:410][796]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2018.03.11-23.51.24:436][796]Lightmass on SYD-R102-PC13: 2.55 sec total, 119 ms importing, 8 ms setup, 662 ms photons, 1.73 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 11.9 sec total, 1.42 sec processing.
+[2018.03.11-23.51.24:460][796]LogStaticLightingSystem: Illumination: 7.66 sec (120 ms encoding lightmaps, 54 ms encoding shadowmaps)
+[2018.03.11-23.51.24:461][796]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.11-23.51.24:461][796]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.11-23.51.24:851][796]DumpUnbuiltLightIteractions
+[2018.03.11-23.51.24:852][796]Lights with unbuilt interactions: 0
+[2018.03.11-23.51.24:852][796]
+[2018.03.11-23.51.24:852][796]Primitives with unbuilt interactions: 0
+[2018.03.11-23.51.24:998][797]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.11-23.51.24:998][797]MapCheck: New page: MainMap - 12 Mar 2018 9:51:24 pm
+[2018.03.11-23.51.25:055][797]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.846ms to complete.
+[2018.03.11-23.51.37:065][124]Cmd: SELECT NONE
+[2018.03.11-23.51.40:765][566]LogEditorViewport: Clicking on Actor (LMB): CarpocalypsePawn (Player)
+[2018.03.11-23.52.00:466][831]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.11-23.52.58:184][853]Cmd: MAP LOAD FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-23.52.58:185][853]LightingResults: New page: Lighting Build
+[2018.03.11-23.52.58:185][853]LoadErrors: New page: Loading map: MainMap.umap
+[2018.03.11-23.52.58:216][853]MapCheck: New page: Map Check
+[2018.03.11-23.52.58:216][853]LightingResults: New page: Lighting Build
+[2018.03.11-23.52.58:229][853]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.52.58:229][853]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap.
+[2018.03.11-23.52.58:230][853]LoadErrors: Error: /Game/Scenes/MainMap : Can't find file for asset. /Game/Scenes/MainMap_BuiltData
+[2018.03.11-23.52.58:231][853]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.52.58:231][853]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap.
+[2018.03.11-23.52.58:233][853]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.52.58:233][853]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.52.58:233][853]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.52.58:234][853]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.52.58:238][853]LogLinker: Warning: Can't find file '/Game/Scenes/MainMap_BuiltData'
+[2018.03.11-23.52.58:238][853]LoadErrors: Failed to load /Game/Scenes/MainMap_BuiltData.MainMap_BuiltData Referenced by PersistentLevel
+[2018.03.11-23.52.58:238][853]LogLinker: Warning: Can't find file for asset '/Game/Scenes/MainMap_BuiltData' while loading NULL.
+[2018.03.11-23.52.58:248][853]LogAIModule: Creating AISystem for world MainMap
+[2018.03.11-23.52.58:252][853]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-23.52.58:310][853]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-23.52.58:363][853]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.123ms to complete.
+[2018.03.11-23.52.58:367][853]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-23.52.58:371][853]LogFileHelpers: Loading map 'MainMap' took 0.189
+[2018.03.11-23.53.06:198][727]MapCheck: New page: Map Check
+[2018.03.11-23.53.06:209][727]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.11-23.53.06:210][727]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.11-23.53.06:228][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.11-23.53.06:234][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.03.11-23.53.06:239][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.11-23.53.06:246][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlueMaterial, compiling. 
+[2018.03.11-23.53.06:252][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.11-23.53.06:709][727]TextureStreamingBuild: Display: Compiling optional shaders took 0.484 seconds.
+[2018.03.11-23.53.06:712][727]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.03.11-23.53.06:716][727]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2018.03.11-23.53.06:723][727]LightingResults: New page: Lighting Build - 12 Mar 2018 9:53:06 pm
+[2018.03.11-23.53.06:731][727]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.11-23.53.06:733][727]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.11-23.53.06:733][727]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.11-23.53.06:734][727]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.11-23.53.06:734][727]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1664
+[2018.03.11-23.53.11:265][727]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.11-23.53.11:265][727]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.11-23.53.11:265][727]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.11-23.53.11:265][727]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.11-23.53.11:266][727]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.11-23.53.11:387][727]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.11-23.53.11:387][727]MapCheck: New page: MainMap - 12 Mar 2018 9:53:11 pm
+[2018.03.11-23.53.11:388][727]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2018.03.11-23.53.11:440][727]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.93ms to complete.
+[2018.03.11-23.53.11:463][727]LogEditorBuildUtils: Build time 0:05
+[2018.03.11-23.53.14:386][956]Job is a success!
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
+[2018.03.11-23.53.14:423][957]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2018.03.11-23.53.14:613][957]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.03.11-23.53.14:614][957]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2018.03.11-23.53.14:635][957]Lightmass on SYD-R102-PC13: 2.52 sec total, 113 ms importing, 8 ms setup, 660 ms photons, 1.71 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 11.8 sec total, 1.43 sec processing.
+[2018.03.11-23.53.14:643][957]LogStaticLightingSystem: Illumination: 7.90 sec (121 ms encoding lightmaps, 56 ms encoding shadowmaps)
+[2018.03.11-23.53.14:643][957]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.11-23.53.14:643][957]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.11-23.53.15:280][957]DumpUnbuiltLightIteractions
+[2018.03.11-23.53.15:281][957]Lights with unbuilt interactions: 0
+[2018.03.11-23.53.15:281][957]
+[2018.03.11-23.53.15:281][957]Primitives with unbuilt interactions: 0
+[2018.03.11-23.53.15:429][958]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.11-23.53.15:430][958]MapCheck: New page: MainMap - 12 Mar 2018 9:53:15 pm
+[2018.03.11-23.53.15:496][958]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.687ms to complete.
+[2018.03.11-23.53.28:122][431]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.03.11-23.53.28:697][431]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-23.55.41:629][ 74]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.11-23.56.01:845][472]LogEditorTransaction: Undo Add Node
+[2018.03.11-23.58.57:354][316]LogEditorTransaction: Undo Move Nodes
+[2018.03.12-00.00.25:673][432]LogEditorTransaction: Undo Paste clipboard contents
+[2018.03.12-00.01.00:588][506]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/BluePrints/PlayerController.PlayerController:EventGraph.K2Node_VariableSet_32 or K2Node_VariableSet /Game/BluePrints/PlayerController.PlayerController:EventGraph.K2Node_VariableSet_32
+[2018.03.12-00.01.37:366][861]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.01.48:046][ 85]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.02.33:108][145]LogEditorViewport: Clicking on Actor (LMB): CarpocalypsePawn (Player)
+[2018.03.12-00.02.34:617][303]Cmd: DELETE
+[2018.03.12-00.02.34:617][303]Cmd: ACTOR DELETE
+[2018.03.12-00.02.34:619][303]LogEditorActor: Deleted Actor: CarpocalypsePawn
+[2018.03.12-00.02.34:660][303]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2018.03.12-00.02.55:141][752]LogActorFactory: Actor Factory created Cone
+[2018.03.12-00.02.55:299][767]LogActorFactory: Actor Factory created Cone
+[2018.03.12-00.03.09:468][454]LogActorFactory: Actor Factory created Cone
+[2018.03.12-00.03.10:992][634]LogActorFactory: Actor Factory created Cone
+[2018.03.12-00.03.23:275][ 60]LogSavePackage: Save=137.03ms
+[2018.03.12-00.03.23:275][ 60]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap41A36FD4491659206947BC884D2DAA2B.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.03.23:280][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.03.23:369][ 60]LogSavePackage: Save=48.48ms
+[2018.03.12-00.03.23:370][ 60]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap_BuiltData1D1D99EC4EA21B70BBFD76BBA2DF5338.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset'
+[2018.03.12-00.03.23:374][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset
+[2018.03.12-00.04.03:168][519]BlueprintLog: New page: Compile Player
+[2018.03.12-00.04.09:651][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2018.03.12-00.04.10:320][193]Cmd: DELETE
+[2018.03.12-00.04.10:320][193]Cmd: ACTOR DELETE
+[2018.03.12-00.04.10:322][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.12-00.04.10:338][193]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.03.12-00.04.38:369][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.12-00.04.41:974][781]LogSavePackage: Save=141.16ms
+[2018.03.12-00.04.41:975][781]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap250E109B43E3B259177B4193DA63592A.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.04.41:979][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.04.42:052][781]LogSavePackage: Save=48.71ms
+[2018.03.12-00.04.42:053][781]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap_BuiltData39CA0F82416A7E52E7197982C5079DEC.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset'
+[2018.03.12-00.04.42:055][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset
+[2018.03.12-00.04.43:475][949]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.04.48:169][477]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-00.06.08:528][909]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.06.10:529][104]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.06.10:560][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.06.10:561][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.06.10:561][104]PIE: New page: PIE session: MainMap (12 Mar 2018 10:06:10 pm)
+[2018.03.12-00.06.10:561][104]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.06.10:585][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023720s)
+[2018.03.12-00.06.10:586][104]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.06.10:587][104]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2018.03.12-00.06.10:587][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.025885s)
+[2018.03.12-00.06.10:618][104]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.06.10:628][104]LogInit: FAudioDevice initialized.
+[2018.03.12-00.06.10:676][104]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.06.10:683][104]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.06.10
+[2018.03.12-00.06.10:684][104]LogWorld: Bringing up level for play took: 0.003032
+[2018.03.12-00.06.10:771][104]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.12-00.06.10:772][104]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.06.10:772][104]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.06.10:773][104]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap -0.292
+[2018.03.12-00.06.10:773][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.06.12:578][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.06.12:611][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.08:859][604]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2018.03.12-00.07.13:948][188]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.03.12-00.07.13:952][188]Candidate modules for hot reload:
+[2018.03.12-00.07.13:952][188]  Carpocalypse
+[2018.03.12-00.07.13:952][188]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Carpocalypse -ModuleWithSuffix Carpocalypse 4364 Win64 Development -editorrecompile -canskiplink "C:/Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Carpocalypse.uproject" ]
+[2018.03.12-00.07.13:954][188]Warning: Starting HotReload took  0.0s.
+[2018.03.12-00.07.19:275][751]LogSavePackage: Save=151.21ms
+[2018.03.12-00.07.19:275][751]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMapED4E49C441E7EDE169D979A87B411514.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.07.19:282][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.07.19:304][751]LogFileHelpers: Saving map 'MainMap' took 0.406
+[2018.03.12-00.07.19:368][751]LogSavePackage: Save=50.51ms
+[2018.03.12-00.07.19:368][751]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerControllerFAD56BBA4EFE4287935279A4691B7FC2.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-00.07.19:374][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-00.07.19:406][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Cone" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/Cone.uasset" SILENT=true
+[2018.03.12-00.07.19:420][751]LogSavePackage: Save=10.74ms
+[2018.03.12-00.07.19:420][751]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Cone3E8A5C1D4A352A8F6D3746A5DF437954.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/Cone.uasset'
+[2018.03.12-00.07.19:425][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/Cone.uasset
+[2018.03.12-00.07.19:455][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset" SILENT=true
+[2018.03.12-00.07.19:474][751]LogSavePackage: Save=16.38ms
+[2018.03.12-00.07.19:474][751]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Player384C6D3F42AEE48223190AA66560F9B7.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset'
+[2018.03.12-00.07.19:480][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset
+[2018.03.12-00.07.28:415][785]MapCheck: New page: Map Check
+[2018.03.12-00.07.28:432][785]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.12-00.07.28:432][785]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.12-00.07.28:477][785]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.12-00.07.28:482][785]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.03.12-00.07.28:489][785]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.12-00.07.28:495][785]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.03.12-00.07.28:502][785]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.12-00.07.28:968][785]TextureStreamingBuild: Display: Compiling optional shaders took 0.494 seconds.
+[2018.03.12-00.07.28:975][785]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2018.03.12-00.07.28:996][785]TextureStreamingBuild: Display: Build Texture Streaming took 0.019 seconds.
+[2018.03.12-00.07.29:013][785]LightingResults: New page: Lighting Build - 12 Mar 2018 10:07:29 pm
+[2018.03.12-00.07.29:024][785]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.12-00.07.29:027][785]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.12-00.07.29:027][785]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.12-00.07.29:028][785]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.12-00.07.29:029][785]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1664
+[2018.03.12-00.07.33:561][785]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.12-00.07.33:561][785]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.12-00.07.33:562][785]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.12-00.07.33:563][785]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.12-00.07.33:563][785]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.12-00.07.33:689][785]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.12-00.07.33:689][785]MapCheck: New page: MainMap - 12 Mar 2018 10:07:33 pm
+[2018.03.12-00.07.33:757][785]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.446ms to complete.
+[2018.03.12-00.07.33:780][785]LogEditorBuildUtils: Build time 0:05
+[2018.03.12-00.07.34:269][795]CompilerResultsLog: New page: Compilation - 12 Mar 2018 10:07:34 pm
+[2018.03.12-00.07.34:269][795]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.03.12-00.07.34:269][795]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.03.12-00.07.34:269][795]CompilerResultsLog: Creating makefile for hot reloading Carpocalypse (game project files are newer)
+[2018.03.12-00.07.34:269][795]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.12-00.07.34:270][795]CompilerResultsLog: Parsing headers for CarpocalypseEditor
+[2018.03.12-00.07.34:270][795]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Carpocalypse.uproject" "C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\CarpocalypseEditor\Development\CarpocalypseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.12-00.07.34:270][795]CompilerResultsLog: Reflection code generated for CarpocalypseEditor in 9.3810987 seconds
+[2018.03.12-00.07.34:270][795]CompilerResultsLog: Performing 14 actions (4 in parallel)
+[2018.03.12-00.07.34:270][795]CompilerResultsLog: CarpocalypsePawn.cpp
+[2018.03.12-00.07.34:270][795]CompilerResultsLog: Carpocalypse.init.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: Carpocalypse.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: CarpocalypseGameMode.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: CarpocalypseProjectile.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: PlayerTestScript.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: testcharacter1.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: CarpocalypseGameMode.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: CarpocalypsePawn.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: CarpocalypseProjectile.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: PlayerTestScript.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: testcharacter1.gen.cpp
+[2018.03.12-00.07.34:271][795]CompilerResultsLog: [13/14] Link UE4Editor-Carpocalypse-4364.dll
+[2018.03.12-00.07.34:272][795]CompilerResultsLog: [14/14] Link UE4Editor-Carpocalypse-4364.lib
+[2018.03.12-00.07.34:272][795]CompilerResultsLog:    Creating library C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-4364.lib and object C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-4364.exp
+[2018.03.12-00.07.34:272][795]CompilerResultsLog:    Creating library C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-4364.suppressed.lib and object C:\Users\jnakhoul\Documents\Unreal Projects\Carpocalypse\Carpocalypse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Carpocalypse-4364.suppressed.exp
+[2018.03.12-00.07.34:273][795]CompilerResultsLog: Total build time: 20.12 seconds (Local executor: 2.43 seconds)
+[2018.03.12-00.07.34:273][795]LogMainFrame: MainFrame: Module compiling took 20.324 seconds
+[2018.03.12-00.07.34:348][795]LogClass: Could not find existing class PlayerTestScript in package /Script/Carpocalypse for HotReload, assuming new class
+[2018.03.12-00.07.34:348][795]LogClass: Could not find existing class testcharacter1 in package /Script/Carpocalypse for HotReload, assuming new class
+[2018.03.12-00.07.34:353][795]LogContentBrowser: Native class hierarchy updated for 'Carpocalypse' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2018.03.12-00.07.34:356][795]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.03.12-00.07.34:658][795]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2370 classes and 526 folders.
+[2018.03.12-00.07.34:661][795]Display: HotReload took 20.7s.
+[2018.03.12-00.07.36:532][943]Job is a success!
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:      BrickData 205x5x5 = 0.2Mb
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:          0: 2.4% covering 100.0% of volume
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:          1: 9.8% covering 6.3% of volume
+[2018.03.12-00.07.36:586][944]LogVolumetricLightmapImport:          2: 87.8% covering 0.9% of volume
+[2018.03.12-00.07.36:776][944]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.03.12-00.07.36:776][944]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.03.12-00.07.36:777][944]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2018.03.12-00.07.36:812][944]Lightmass on SYD-R102-PC13: 2.50 sec total, 104 ms importing, 7 ms setup, 648 ms photons, 1.71 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 11.8 sec total, 1.42 sec processing.
+[2018.03.12-00.07.36:834][944]LogStaticLightingSystem: Illumination: 7.79 sec (116 ms encoding lightmaps, 58 ms encoding shadowmaps)
+[2018.03.12-00.07.36:834][944]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.03.12-00.07.36:834][944]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.12-00.07.37:592][944]DumpUnbuiltLightIteractions
+[2018.03.12-00.07.37:593][944]Lights with unbuilt interactions: 0
+[2018.03.12-00.07.37:593][944]
+[2018.03.12-00.07.37:593][944]Primitives with unbuilt interactions: 0
+[2018.03.12-00.07.37:743][945]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.12-00.07.37:743][945]MapCheck: New page: MainMap - 12 Mar 2018 10:07:37 pm
+[2018.03.12-00.07.37:840][945]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.892ms to complete.
+[2018.03.12-00.07.38:662][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.07.38:676][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.38:677][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.07.38:677][ 23]PIE: New page: PIE session: MainMap (12 Mar 2018 10:07:38 pm)
+[2018.03.12-00.07.38:677][ 23]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.07.38:689][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011152s)
+[2018.03.12-00.07.38:690][ 23]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.07.38:690][ 23]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2018.03.12-00.07.38:690][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.013049s)
+[2018.03.12-00.07.38:721][ 23]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.07.38:729][ 23]LogInit: FAudioDevice initialized.
+[2018.03.12-00.07.38:758][ 23]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.07.38:760][ 23]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.07.38
+[2018.03.12-00.07.38:760][ 23]LogWorld: Bringing up level for play took: 0.000931
+[2018.03.12-00.07.38:761][ 23]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.07.38:761][ 23]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.07.38:762][ 23]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap -0.303
+[2018.03.12-00.07.38:762][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.39:966][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.40:000][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.43:442][495]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.03.12-00.07.52:234][453]LogSavePackage: Save=173.93ms
+[2018.03.12-00.07.52:234][453]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap2A6855794D50BF150D79F08FB5AF6055.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.07.52:239][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.07.52:257][453]LogFileHelpers: Saving map 'MainMap' took 0.273
+[2018.03.12-00.07.52:314][453]LogSavePackage: Save=48.45ms
+[2018.03.12-00.07.52:314][453]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap_BuiltDataBCDC440448519D71730E3CAEB53CAB54.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset'
+[2018.03.12-00.07.52:318][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap_BuiltData.uasset
+[2018.03.12-00.07.54:033][630]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.07.54:046][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.54:047][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.07.54:047][630]PIE: New page: PIE session: MainMap (12 Mar 2018 10:07:54 pm)
+[2018.03.12-00.07.54:047][630]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.07.54:069][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022283s)
+[2018.03.12-00.07.54:071][630]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.07.54:071][630]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2018.03.12-00.07.54:071][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.024842s)
+[2018.03.12-00.07.54:129][630]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.07.54:136][630]LogInit: FAudioDevice initialized.
+[2018.03.12-00.07.54:172][630]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.07.54:175][630]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.07.54
+[2018.03.12-00.07.54:176][630]LogWorld: Bringing up level for play took: 0.002159
+[2018.03.12-00.07.54:177][630]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.07.54:178][630]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.07.54:179][630]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 1.115
+[2018.03.12-00.07.54:180][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.57:869][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.07.57:902][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.29:570][786]LogEditorViewport: Clicking on Actor (context menu): Player_C (Player)
+[2018.03.12-00.08.52:324][395]LogSavePackage: Save=165.36ms
+[2018.03.12-00.08.52:324][395]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap217B495D405CCDF89102CEB169D593FD.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.08.52:329][395]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.08.52:348][395]LogFileHelpers: Saving map 'MainMap' took 0.274
+[2018.03.12-00.08.53:056][450]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.08.53:076][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.53:076][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.08.53:077][450]PIE: New page: PIE session: MainMap (12 Mar 2018 10:08:53 pm)
+[2018.03.12-00.08.53:077][450]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.08.53:089][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012541s)
+[2018.03.12-00.08.53:091][450]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.08.53:091][450]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2018.03.12-00.08.53:091][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.014621s)
+[2018.03.12-00.08.53:121][450]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.08.53:129][450]LogInit: FAudioDevice initialized.
+[2018.03.12-00.08.53:163][450]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.08.53:165][450]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.08.53
+[2018.03.12-00.08.53:165][450]LogWorld: Bringing up level for play took: 0.000844
+[2018.03.12-00.08.53:166][450]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.08.53:166][450]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.08.53:167][450]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.102
+[2018.03.12-00.08.53:167][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.57:980][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.58:016][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.59:475][188]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.08.59:487][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.08.59:487][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.08.59:487][188]PIE: New page: PIE session: MainMap (12 Mar 2018 10:08:59 pm)
+[2018.03.12-00.08.59:488][188]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.08.59:500][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011889s)
+[2018.03.12-00.08.59:501][188]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.08.59:501][188]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2018.03.12-00.08.59:501][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.013715s)
+[2018.03.12-00.08.59:530][188]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.08.59:537][188]LogInit: FAudioDevice initialized.
+[2018.03.12-00.08.59:569][188]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.08.59:571][188]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.08.59
+[2018.03.12-00.08.59:571][188]LogWorld: Bringing up level for play took: 0.000888
+[2018.03.12-00.08.59:572][188]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.08.59:572][188]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.08.59:573][188]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.508
+[2018.03.12-00.08.59:573][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.09.03:335][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.09.03:373][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.09.59:470][251]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2018.03.12-00.10.09:155][340]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.10.09:173][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.10.09:173][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.10.09:174][340]PIE: New page: PIE session: MainMap (12 Mar 2018 10:10:09 pm)
+[2018.03.12-00.10.09:174][340]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.10.09:187][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012871s)
+[2018.03.12-00.10.09:188][340]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.10.09:189][340]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2018.03.12-00.10.09:189][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.015149s)
+[2018.03.12-00.10.09:224][340]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.10.09:231][340]LogInit: FAudioDevice initialized.
+[2018.03.12-00.10.09:262][340]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.10.09:264][340]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.10.09
+[2018.03.12-00.10.09:264][340]LogWorld: Bringing up level for play took: 0.000919
+[2018.03.12-00.10.09:265][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.10.09:265][340]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.10.09:266][340]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.201
+[2018.03.12-00.10.09:266][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.10.22:082][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.10.22:120][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.10.41:278][111]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2018.03.12-00.11.17:837][382]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2018.03.12-00.11.41:187][940]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.11.41:200][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.11.41:200][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.11.41:200][940]PIE: New page: PIE session: MainMap (12 Mar 2018 10:11:41 pm)
+[2018.03.12-00.11.41:200][940]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.11.41:214][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012899s)
+[2018.03.12-00.11.41:215][940]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.11.41:215][940]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2018.03.12-00.11.41:216][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.015305s)
+[2018.03.12-00.11.41:248][940]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.11.41:256][940]LogInit: FAudioDevice initialized.
+[2018.03.12-00.11.41:296][940]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.11.41:301][940]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.11.41
+[2018.03.12-00.11.41:302][940]LogWorld: Bringing up level for play took: 0.003131
+[2018.03.12-00.11.41:305][940]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.11.41:306][940]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.11.41:308][940]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.244
+[2018.03.12-00.11.41:309][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.11.43:770][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.11.43:803][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.12.10:370][ 37]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.12-00.12.29:160][252]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2018.03.12-00.13.19:112][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.BPPlayer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:112][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.SKEL_BPPlayer_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:113][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.BPPlayer_C' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:113][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.BPPlayer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:113][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.BPPlayer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:113][569]LogMetaData: Removing '/Game/Blueprints/BPPlayer.BPPlayer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Player.PackageMetaData'
+[2018.03.12-00.13.19:178][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPPlayer" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BPPlayer.uasset" SILENT=true
+[2018.03.12-00.13.19:211][569]LogSavePackage: Save=29.26ms
+[2018.03.12-00.13.19:211][569]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BPPlayerC86EC399467EFCDB69DE4D8225F24CCD.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BPPlayer.uasset'
+[2018.03.12-00.13.19:215][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BPPlayer.uasset
+[2018.03.12-00.13.19:220][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset" SILENT=true
+[2018.03.12-00.13.19:228][569]LogSavePackage: Save=1.70ms
+[2018.03.12-00.13.19:228][569]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/Player8CA31C97468A6949C76F1DB4F4ED1055.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset'
+[2018.03.12-00.13.19:232][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset
+[2018.03.12-00.13.26:364][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.BP_Player_C' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:364][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.SKEL_BP_Player_C' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:364][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.BP_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:365][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.BP_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:365][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.BP_Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:365][283]LogMetaData: Removing '/Game/Blueprints/BP_Player.BP_Player:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BPPlayer.PackageMetaData'
+[2018.03.12-00.13.26:429][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2018.03.12-00.13.26:455][283]LogSavePackage: Save=23.32ms
+[2018.03.12-00.13.26:455][283]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/BP_PlayerB3BC33424318277D40120CB45D20949D.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BP_Player.uasset'
+[2018.03.12-00.13.26:462][283]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/BP_Player.uasset
+[2018.03.12-00.13.26:618][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset" SILENT=true
+[2018.03.12-00.13.26:624][283]LogSavePackage: Save=1.79ms
+[2018.03.12-00.13.26:625][283]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerFDF2C8D948449E391654739781BE3AAE.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset'
+[2018.03.12-00.13.26:627][283]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Blueprints/Player.uasset
+[2018.03.12-00.13.32:589][937]LogSavePackage: Save=176.60ms
+[2018.03.12-00.13.32:589][937]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMap11874E6B4A468486F58A1AAD2F8801DE.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.13.32:595][937]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.13.32:630][937]LogFileHelpers: Saving map 'MainMap' took 0.300
+[2018.03.12-00.13.32:684][937]LogSavePackage: Save=44.80ms
+[2018.03.12-00.13.32:684][937]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerControllerB303DEB34FDD21C2BE3C8C8724B120D3.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-00.13.32:688][937]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
+[2018.03.12-00.13.33:152][977]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.13.36:200][256]LogSavePackage: Save=184.52ms
+[2018.03.12-00.13.36:200][256]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMapBB9D3D4E4608B126E066059C7279219B.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.13.36:205][256]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.13.36:223][256]LogFileHelpers: Saving map 'MainMap' took 0.295
+[2018.03.12-00.13.37:147][343]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.12-00.13.37:168][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.13.37:168][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.12-00.13.37:168][343]PIE: New page: PIE session: MainMap (12 Mar 2018 10:13:37 pm)
+[2018.03.12-00.13.37:169][343]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainMap
+[2018.03.12-00.13.37:182][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013271s)
+[2018.03.12-00.13.37:184][343]LogAIModule: Creating AISystem for world MainMap
+[2018.03.12-00.13.37:184][343]LogPlayLevel: PIE: World Init took: (0.001614s)
+[2018.03.12-00.13.37:185][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainMap.MainMap to /Game/Scenes/UEDPIE_0_MainMap.MainMap (0.015984s)
+[2018.03.12-00.13.37:216][343]LogInit: XAudio2 using 'U28E850-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.12-00.13.37:223][343]LogInit: FAudioDevice initialized.
+[2018.03.12-00.13.37:254][343]LogLoad: Game class is 'CarpocalypseGameMode'
+[2018.03.12-00.13.37:255][343]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2018.03.12-11.13.37
+[2018.03.12-00.13.37:256][343]LogWorld: Bringing up level for play took: 0.001069
+[2018.03.12-00.13.37:256][343]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=10.000 Z=200.000] for [CarpocalypsePawn]
+[2018.03.12-00.13.37:257][343]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type CarpocalypsePawn at Rotation: Pitch 0.000000 Yaw -179.999893 Roll 0.000000
+Translation: 710.000000 10.000000 200.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.12-00.13.37:257][343]PIE: Play in editor start time for /Game/Scenes/UEDPIE_0_MainMap 0.194
+[2018.03.12-00.13.37:258][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.13.42:638][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.13.42:673][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/Scenes/MainMap.MainMap_C' with ClassGeneratedBy '/Game/Scenes/MainMap.MainMap:PersistentLevel.MainMap'
+[2018.03.12-00.14.40:983][826]BlueprintLog: New page: Compile PlayerController
+[2018.03.12-00.14.42:048][863]LogSavePackage: Save=190.44ms
+[2018.03.12-00.14.42:048][863]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/MainMapADFC57644FA4E58AC14BE988B4316D25.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap'
+[2018.03.12-00.14.42:054][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/Scenes/MainMap.umap
+[2018.03.12-00.14.42:072][863]LogFileHelpers: Saving map 'MainMap' took 0.300
+[2018.03.12-00.14.42:124][863]LogSavePackage: Save=44.39ms
+[2018.03.12-00.14.42:124][863]LogSavePackage: Moving '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Saved/PlayerControllerF9D489604D321F3A714249B52273B114.tmp' to '../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset'
+[2018.03.12-00.14.42:128][863]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jnakhoul/Documents/Unreal Projects/Carpocalypse/Carpocalypse/Content/BluePrints/PlayerController.uasset
