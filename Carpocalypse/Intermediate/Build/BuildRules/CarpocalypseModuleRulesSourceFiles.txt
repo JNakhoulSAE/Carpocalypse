@@ -1,3 +1,0 @@
-C:\Users\kmorgansmith\Documents\GitHub\Carpocalypse\Carpocalypse\Source\Carpocalypse\Carpocalypse.Build.cs
-C:\Users\kmorgansmith\Documents\GitHub\Carpocalypse\Carpocalypse\Source\Carpocalypse.Target.cs
-C:\Users\kmorgansmith\Documents\GitHub\Carpocalypse\Carpocalypse\Source\CarpocalypseEditor.Target.cs
