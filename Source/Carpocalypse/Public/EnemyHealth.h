@@ -16,7 +16,7 @@ public:
 	AEnemyHealth();
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
-		void SetHealth(int enemyIdentifier);
+		static int SetHealth(int enemyIdentifier);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 		int health = 0;

@@ -26,8 +26,10 @@ void AEnemyHealth::Tick(float DeltaTime)
 
 }
 
-void AEnemyHealth::SetHealth(int enemyIdentifier)
+int AEnemyHealth::SetHealth(int enemyIdentifier)
 {
+	int health;
+	
 	switch (enemyIdentifier)
 	{
 	case 0:
@@ -46,4 +48,6 @@ void AEnemyHealth::SetHealth(int enemyIdentifier)
 		health = 10;
 		break;
 	}
+
+	return health;
 }
