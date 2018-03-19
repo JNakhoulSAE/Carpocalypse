@@ -23,9 +23,9 @@ void AEnemyHealth::Tick(float DeltaTime)
 
 }
 
-int AEnemyHealth::SetHealth(EEnemyTypes enemyType)
+float AEnemyHealth::SetHealth(EEnemyTypes enemyType)
 {
-	int health;
+	float health;
 	
 	switch (enemyType)
 	{

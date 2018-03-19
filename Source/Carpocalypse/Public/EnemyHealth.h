@@ -24,7 +24,7 @@ public:
 	AEnemyHealth();
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
-		static int SetHealth(EEnemyTypes enemyType);
+		static float SetHealth(EEnemyTypes enemyType);
 
 protected:
 	// Called when the game starts or when spawned
