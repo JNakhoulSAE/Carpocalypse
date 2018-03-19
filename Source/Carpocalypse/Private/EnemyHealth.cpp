@@ -6,7 +6,7 @@
 	AEnemyHealth::AEnemyHealth()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 }
 
@@ -14,9 +14,6 @@
 void AEnemyHealth::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// Set health depending on enemy type
-	AEnemyHealth::SetHealth(_passedEnemyIdentifier);
 }
 
 // Called every frame
@@ -26,21 +23,21 @@ void AEnemyHealth::Tick(float DeltaTime)
 
 }
 
-int AEnemyHealth::SetHealth(int enemyIdentifier)
+int AEnemyHealth::SetHealth(EEnemyTypes enemyType)
 {
 	int health;
 	
-	switch (enemyIdentifier)
+	switch (enemyType)
 	{
-	case 0:
+	case EEnemyTypes::EType_Melee:
 		health = 50;
 		break;
 
-	case 1:
+	case EEnemyTypes::EType_Ranged:
 		health = 100;
 		break;
 
-	case 2:
+	case EEnemyTypes::EType_Healer:
 		health = 200;
 		break;
 

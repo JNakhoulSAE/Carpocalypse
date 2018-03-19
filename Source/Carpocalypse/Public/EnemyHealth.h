@@ -6,6 +6,14 @@
 #include "GameFramework/Actor.h"
 #include "EnemyHealth.generated.h"
 
+UENUM(BlueprintType, category = "Health")
+enum class EEnemyTypes : uint8
+{
+	EType_Melee UMETA(DisplayName = "Melee"),
+	EType_Ranged UMETA(DisplayName = "Ranged"),
+	EType_Healer UMETA(DisplayName = "Healer")
+};
+
 UCLASS()
 class CARPOCALYPSE_API AEnemyHealth : public AActor
 {
@@ -16,13 +24,7 @@ public:
 	AEnemyHealth();
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
-		static int SetHealth(int enemyIdentifier);
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		int health = 0;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		int _passedEnemyIdentifier;
+		static int SetHealth(EEnemyTypes enemyType);
 
 protected:
 	// Called when the game starts or when spawned
