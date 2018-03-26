@@ -23,5 +23,11 @@ void ARangedEnemyAI::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	GetPlayerLocation();
+}
+
+void ARangedEnemyAI::GetPlayerLocation()
+{
+	//player_z_loc = PlayerBP.transform.location.z;
 }
 
