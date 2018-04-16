@@ -15,7 +15,6 @@ APlayerActor::APlayerActor()
 void APlayerActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 
 }
 
@@ -23,6 +22,7 @@ void APlayerActor::BeginPlay()
 void APlayerActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	playerLocation = this->GetActorLocation();
 
 }
 

@@ -11,15 +11,13 @@ class CARPOCALYPSE_API ARangedEnemyAI : public AActor
 {
 	GENERATED_BODY()
 
-	class BP_Player* PlayerBP;
-	class AEnemyHealth* EnemyHP;
+		class PlayerActor* player;
 	
 public:	
 	// Sets default values for this actor's properties
 	ARangedEnemyAI();
+	
 
-	UFUNCTION()
-	void GetPlayerLocation();
 
 protected:
 	// Called when the game starts or when spawned
@@ -28,7 +26,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	float player_z_loc;
 	
 };

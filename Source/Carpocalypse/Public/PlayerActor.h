@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Runtime/Engine/Classes/GameFramework/Character.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "GameFramework/Actor.h"
 #include "PlayerActor.generated.h"
 
@@ -11,9 +13,14 @@ class CARPOCALYPSE_API APlayerActor : public AActor
 {
 	GENERATED_BODY()
 	
+
 public:	
 	// Sets default values for this actor's properties
 	APlayerActor();
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+		FVector playerLocation;
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,8 +29,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	float playerLocation;
-
-	
 	
 };
