@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "RangedEnemyAI.h"
+#include "MeleeEnemyAI.h"
 
 
 // Sets default values
-ARangedEnemyAI::ARangedEnemyAI()
+AMeleeEnemyAI::AMeleeEnemyAI()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,21 +12,16 @@ ARangedEnemyAI::ARangedEnemyAI()
 }
 
 // Called when the game starts or when spawned
-void ARangedEnemyAI::BeginPlay()
+void AMeleeEnemyAI::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void ARangedEnemyAI::Tick(float DeltaTime)
+void AMeleeEnemyAI::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
-
-//void ARangedEnemyAI::GetPlayerLocation()
-//{
-//	player.player
-//}
 
