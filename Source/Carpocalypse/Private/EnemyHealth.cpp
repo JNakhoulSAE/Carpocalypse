@@ -30,7 +30,7 @@ float AEnemyHealth::SetHealth(EEnemyTypes enemyType)
 	switch (enemyType)
 	{
 	case EEnemyTypes::EType_Melee:
-		health = 50;
+		health = 88;
 		break;
 
 	case EEnemyTypes::EType_Ranged:
