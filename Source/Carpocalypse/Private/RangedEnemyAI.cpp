@@ -27,6 +27,6 @@ void ARangedEnemyAI::Tick(float DeltaTime)
 
 void ARangedEnemyAI::GetPlayerLocation()
 {
-	
+	player.player
 }
 
